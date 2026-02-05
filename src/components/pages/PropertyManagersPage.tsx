@@ -83,7 +83,7 @@ export default function PropertyManagersPage() {
           <div className="container mx-auto px-4">
             <div className="text-center mb-16">
               <h2 className="font-heading text-3xl md:text-4xl mb-4 text-foreground">
-                Why Property Managers Choose Valet Living
+                Why Property Managers Choose Neighborhood Valet
               </h2>
               <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
                 We provide comprehensive solutions that drive value for your properties and satisfaction for your residents
@@ -199,7 +199,7 @@ export default function PropertyManagersPage() {
                 <div className="text-center">
                   <div className="text-6xl text-primary mb-6">&ldquo;</div>
                   <p className="text-xl md:text-2xl text-foreground mb-6 italic">
-                    Valet Living has been an invaluable partner for our properties. Their service quality is exceptional, and our residents consistently rate it as one of their favorite amenities.
+                    Neighborhood Valet has been an invaluable partner for our properties. Their service quality is exceptional, and our residents consistently rate it as one of their favorite amenities.
                   </p>
                   <div className="font-heading text-lg text-primary">
                     Property Management Professional
@@ -219,7 +219,7 @@ export default function PropertyManagersPage() {
               Let&apos;s Discuss Your Community&apos;s Needs
             </h2>
             <p className="text-xl text-white/90 mb-8 max-w-2xl mx-auto">
-              Schedule a consultation to learn how Valet Living can enhance your properties
+              Schedule a consultation to learn how Neighborhood Valet can enhance your properties
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Button 

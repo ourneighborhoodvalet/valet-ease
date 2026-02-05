@@ -314,7 +314,7 @@ export default function ContactPage() {
               Ready to Get Started?
             </h2>
             <p className="text-xl text-white/90 mb-8 max-w-2xl mx-auto">
-              Let&apos;s discuss how Valet Living can enhance your community with our premium amenity services
+              Let&apos;s discuss how Neighborhood Valet can enhance your community with our premium amenity services
             </p>
             <Button 
               size="lg"

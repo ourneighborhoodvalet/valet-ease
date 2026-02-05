@@ -262,7 +262,7 @@ export default function ResidentsPage() {
               Experience the Convenience
             </h2>
             <p className="text-xl text-white/90 mb-8 max-w-2xl mx-auto">
-              Join thousands of satisfied residents who enjoy hassle-free living with Valet Living services
+              Join thousands of satisfied residents who enjoy hassle-free living with Neighborhood Valet services
             </p>
             <Button 
               size="lg"

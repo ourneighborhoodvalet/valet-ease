@@ -15,7 +15,7 @@ export default function Header() {
             <div className="w-8 h-8 bg-white rounded-full flex items-center justify-center">
               <span className="text-[#005C56] font-bold text-lg">V</span>
             </div>
-            <span className="font-heading text-xl font-bold">Valet Living</span>
+            <span className="font-heading text-xl font-bold">Neighborhood Valet</span>
           </Link>
 
           {/* Desktop Navigation */}

@@ -12,7 +12,7 @@ export default function Footer() {
               <div className="w-8 h-8 bg-white rounded-full flex items-center justify-center">
                 <span className="text-[#005C56] font-bold text-lg">V</span>
               </div>
-              <span className="font-heading text-xl font-bold">Valet Living</span>
+              <span className="font-heading text-xl font-bold">Neighborhood Valet</span>
             </div>
             <p className="text-sm text-white/80 mb-4">
               The premier provider of the most used amenity services in the multifamily industry.
@@ -115,7 +115,7 @@ export default function Footer() {
         <div className="border-t border-white/20 pt-6">
           <div className="flex flex-col md:flex-row justify-between items-center space-y-4 md:space-y-0">
             <p className="text-sm text-white/80">
-              © 2026 valetliving.com. All rights reserved.
+              © 2026 neighborhoodvalet.com. All rights reserved.
             </p>
             <div className="flex flex-wrap justify-center gap-4 text-sm text-white/80">
               <a href="#" className="hover:text-primary transition-colors">
