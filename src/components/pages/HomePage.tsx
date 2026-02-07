@@ -152,95 +152,15 @@ export default function HomePage() {
           />
           {/* Heavy Green Overlay matching screenshot */}
           <div className="absolute inset-0 bg-[#005C56]/90 mix-blend-multiply" />
-          <div className="absolute inset-0 from-[#005C56] via-[#005C56]/80 to-transparent opacity-90 bg-[#478544ff]" />
+          <div className="absolute inset-0 from-[#005C56] via-[#005C56]/80 to-transparent opacity-90 bg-color-16" />
         </div>
 
-        <div className="container mx-auto px-4 sm:px-6 relative z-10 pt-20 bg-[#647c90ff]">
-          <div className="max-w-4xl">
-            <AnimatedSection delay={100}>
-              <h1 className="font-heading text-4xl md:text-5xl lg:text-7xl text-white mb-8 leading-[1.1] tracking-tight drop-shadow-lg">Neighborhood Valet Trash & Amenity Services for Apartments, Condos & Multifamily Communities</h1>
-            </AnimatedSection>
-            
-            <AnimatedSection delay={300}>
-              <p className="text-xl md:text-2xl text-white/90 mb-10 font-light max-w-2xl leading-relaxed drop-shadow-md">
-                The premier provider of the most used amenity services in the multifamily industry.
-              </p>
-            </AnimatedSection>
-
-            <AnimatedSection delay={500}>
-              <div className="flex flex-col sm:flex-row items-start sm:items-center gap-6 mb-12">
-                <button 
-                  onClick={() => setIsVideoModalOpen(true)}
-                  className="group flex items-center space-x-4 text-white hover:text-accent transition-colors duration-300"
-                >
-                  <div className="w-14 h-14 bg-white rounded-full flex items-center justify-center shadow-lg group-hover:scale-110 transition-transform duration-300">
-                    <Play className="text-primary ml-1 fill-primary" size={24} />
-                  </div>
-                  <span className="text-lg font-semibold tracking-wide border-b-2 border-transparent group-hover:border-accent pb-0.5">
-                    Let us show you.
-                  </span>
-                </button>
-              </div>
-            </AnimatedSection>
-
-            <AnimatedSection delay={700}>
-              <div className="flex flex-col sm:flex-row gap-5">
-                <Button 
-                  size="lg"
-                  className="bg-accent hover:bg-accent/90 text-white text-lg px-10 py-7 rounded-sm transition-all hover:translate-y-[-2px] shadow-xl font-semibold tracking-wide"
-                  onClick={() => navigate('/property-managers')}
-                >
-                  Property Managers
-                </Button>
-                <Button 
-                  size="lg"
-                  variant="outline"
-                  className="bg-transparent border-2 border-white text-white hover:bg-white hover:text-[#005C56] text-lg px-10 py-7 rounded-sm transition-all hover:translate-y-[-2px] backdrop-blur-sm font-semibold tracking-wide"
-                  onClick={() => navigate('/residents')}
-                >
-                  Residents
-                </Button>
-              </div>
-            </AnimatedSection>
-          </div>
-        </div>
+        <div className="container mx-auto px-4 sm:px-6 relative z-10 pt-24 pb-16 lg:pb-24 xl:pb-32 grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-16 items-center"> <div className="lg:col-span-1"> <AnimatedSection delay={100}> <h1 className="font-heading text-4xl md:text-5xl lg:text-6xl xl:text-7xl text-white mb-6 leading-[1.1] tracking-tight drop-shadow-lg">Neighborhood Valet Trash & Amenity Services for Apartments, Condos & Multifamily Communities</h1> </AnimatedSection> <AnimatedSection delay={300}> <p className="text-xl md:text-2xl text-white/90 mb-8 font-light max-w-2xl leading-relaxed drop-shadow-md"> The premier provider of the most used amenity services in the multifamily industry. </p> </AnimatedSection> <AnimatedSection delay={500}> <div className="flex flex-col sm:flex-row items-start sm:items-center gap-6 mb-10"> <button onClick={() => setIsVideoModalOpen(true)} className="group flex items-center space-x-4 text-white hover:text-accent transition-colors duration-300"> <div className="w-16 h-16 bg-white rounded-full flex items-center justify-center shadow-lg group-hover:scale-110 transition-transform duration-300"> <Play className="text-primary ml-1 fill-primary" size={28} /> </div> <span className="text-lg font-semibold tracking-wide border-b-2 border-transparent group-hover:border-accent pb-0.5"> Let us show you. </span> </button> </div> </AnimatedSection> <AnimatedSection delay={700}> <div className="flex flex-col sm:flex-row gap-5"> <Button size="lg" className="bg-accent hover:bg-accent/90 text-white text-lg px-10 py-7 rounded-full transition-all hover:translate-y-[-2px] shadow-xl font-semibold tracking-wide" onClick={() => navigate('/property-managers')}> Property Managers </Button> <Button size="lg" variant="outline" className="bg-transparent border-2 border-white text-white hover:bg-white hover:text-[#005C56] text-lg px-10 py-7 rounded-full transition-all hover:translate-y-[-2px] backdrop-blur-sm font-semibold tracking-wide" onClick={() => navigate('/residents')}> Residents </Button> </div> </AnimatedSection> </div> <div className="lg:col-span-1 flex justify-center lg:justify-end"> <AnimatedSection delay={900} direction="right"> <div className="relative w-full max-w-sm aspect-[3/4] rounded-3xl overflow-hidden shadow-2xl border border-white/20"> <Image src="https://static.wixstatic.com/media/e622ff_07851b8bdf4949319123806fe9252bda~mv2.png?originWidth=1280&originHeight=704" alt="Valet Living Office" className="w-full h-full object-cover scale-110" /> <div className="absolute inset-0 bg-gradient-to-t from-black/70 via-transparent to-transparent" /> <div className="absolute bottom-8 left-8 right-8 bg-white/90 backdrop-blur-md p-6 rounded-xl shadow-lg border border-white/20 text-center"> <p className="text-sm text-muted-foreground uppercase tracking-wider font-semibold mb-2">Trusted by Communities</p> <p className="text-4xl font-bold text-primary font-heading">1000+</p> </div> </div> </AnimatedSection> </div></div>
 
         {/* Decorative Bottom Curve/Gradient */}
         <div className="absolute bottom-0 left-0 right-0 h-32 bg-gradient-to-t from-background to-transparent z-10 pointer-events-none" />
       </section>
       {/* --- PARTNERS MARQUEE --- */}
-      <section className="py-16 bg-background border-b border-border/40">
-        <div className="container mx-auto px-4 mb-10">
-          <AnimatedSection>
-            <h2 className="font-heading text-2xl md:text-3xl text-center text-foreground/80">
-              Our Community Partners
-            </h2>
-          </AnimatedSection>
-        </div>
-        
-        <div className="relative w-full overflow-hidden bg-background">
-          <div className="absolute left-0 top-0 bottom-0 w-32 bg-gradient-to-r from-background to-transparent z-10" />
-          <div className="absolute right-0 top-0 bottom-0 w-32 bg-gradient-to-l from-background to-transparent z-10" />
-          
-          <div className="flex animate-scroll whitespace-nowrap py-4">
-            {/* Triple duplication for smooth infinite scroll */}
-            {[...PARTNER_LOGOS, ...PARTNER_LOGOS, ...PARTNER_LOGOS].map((logo, index) => (
-              <div 
-                key={index}
-                className="inline-flex items-center justify-center mx-8 w-40 h-20 grayscale opacity-60 hover:grayscale-0 hover:opacity-100 transition-all duration-500 cursor-pointer"
-              >
-                <Image 
-                  src={logo}
-                  alt="Partner Logo"
-                  className="max-w-full max-h-full object-contain"
-                  width={160}
-                  height={80}
-                />
-              </div>
-            ))}
-          </div>
-        </div>
-      </section>
       {/* --- SERVICES SECTION --- */}
       <section className="py-24 bg-secondary/30 relative overflow-hidden">
         {/* Decorative background elements */}

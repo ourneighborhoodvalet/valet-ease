@@ -9,8 +9,8 @@ export default function Header() {
 
   return (
     <header className="sticky top-0 z-50 bg-[#005C56] text-white shadow-md w-full">
-      <div className="w-full px-3 bg-color-15">
-        <div className="flex items-center justify-between h-12 w-full bg-color-15">
+      <div className="w-full px-3 bg-color-16">
+        <div className="flex items-center justify-between h-12 w-full bg-color-17">
           {/* Logo */}
           <Link to="/" className="flex items-center space-x-2">
             <Image
@@ -20,7 +20,7 @@ export default function Header() {
               className="h-8 w-8"
               originWidth={1024}
               originHeight={1536} />
-            <span className="font-heading font-bold hidden sm:inline text-3xl">Neighborhood Valet</span>
+            <span className="font-heading font-bold hidden sm:inline text-3xl text-accent-foreground">Neighborhood Valet</span>
           </Link>
 
           {/* Desktop Navigation */}
@@ -38,7 +38,7 @@ export default function Header() {
             <Link to="/careers" className="hover:text-primary transition-colors text-lg">
               Careers
             </Link>
-            <Link to="/contact" className="hover:text-primary transition-colors text-xl">
+            <Link to="/contact" className="hover:text-primary transition-colors text-lg">
               Contact
             </Link>
           </nav>
