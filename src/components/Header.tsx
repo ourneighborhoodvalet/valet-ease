@@ -8,127 +8,127 @@ export default function Header() {
 
   return (
     <header className="sticky top-0 z-50 bg-[#005C56] text-white shadow-md">
-      <div className="container mx-auto px-4">
-        <div className="flex items-center justify-between h-16">
+      <div className="container mx-auto px-3">
+        <div className="flex items-center justify-between h-12">
           {/* Logo */}
-          <Link to="/" className="flex items-center space-x-2">
-            <div className="w-8 h-8 bg-white rounded-full flex items-center justify-center">
+          <Link to="/" className="flex items-center space-x-1.5">
+            <div className="w-6 h-6 bg-white rounded-full flex items-center justify-center text-xs font-bold">
               NVS
             </div>
-            <span className="font-heading text-xl font-bold">Neighborhood Valet</span>
+            <span className="font-heading text-sm font-bold hidden sm:inline">Neighborhood Valet</span>
           </Link>
 
           {/* Desktop Navigation */}
-          <nav className="hidden lg:flex items-center space-x-8">
-            <Link to="/" className="text-sm hover:text-primary transition-colors">
+          <nav className="hidden lg:flex items-center space-x-5">
+            <Link to="/" className="text-xs hover:text-primary transition-colors">
               Home
             </Link>
-            <Link to="/services" className="text-sm hover:text-primary transition-colors">
+            <Link to="/services" className="text-xs hover:text-primary transition-colors">
               Services
             </Link>
-            <Link to="/property-managers" className="text-sm hover:text-primary transition-colors">
+            <Link to="/property-managers" className="text-xs hover:text-primary transition-colors">
               Property Managers
             </Link>
-            <Link to="/residents" className="text-sm hover:text-primary transition-colors">
+            <Link to="/residents" className="text-xs hover:text-primary transition-colors">
               Residents
             </Link>
-            <Link to="/careers" className="text-sm hover:text-primary transition-colors">
+            <Link to="/careers" className="text-xs hover:text-primary transition-colors">
               Careers
             </Link>
-            <Link to="/contact" className="text-sm hover:text-primary transition-colors">
+            <Link to="/contact" className="text-xs hover:text-primary transition-colors">
               Contact
             </Link>
           </nav>
 
           {/* CTA Buttons */}
-          <div className="hidden lg:flex items-center space-x-3">
+          <div className="hidden lg:flex items-center space-x-2">
             <Button 
               variant="outline" 
               size="sm"
-              className="bg-transparent border-white text-white hover:bg-white hover:text-[#005C56] transition-all"
+              className="bg-transparent border-white text-white hover:bg-white hover:text-[#005C56] transition-all text-xs px-2 py-1 h-auto"
               onClick={() => window.location.href = '/contact'}
             >
-              Request A Quote
+              Quote
             </Button>
             <Button 
               size="sm"
-              className="bg-accent hover:bg-accent/90 text-white transition-all"
+              className="bg-accent hover:bg-accent/90 text-white transition-all text-xs px-2 py-1 h-auto"
               onClick={() => window.location.href = '/residents'}
             >
-              Resident Portal
+              Portal
             </Button>
           </div>
 
           {/* Mobile Menu Button */}
           <button
-            className="lg:hidden p-2"
+            className="lg:hidden p-1"
             onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
             aria-label="Toggle menu"
           >
-            {mobileMenuOpen ? <X size={24} /> : <Menu size={24} />}
+            {mobileMenuOpen ? <X size={20} /> : <Menu size={20} />}
           </button>
         </div>
 
         {/* Mobile Menu */}
         {mobileMenuOpen && (
-          <div className="lg:hidden py-4 border-t border-white/20">
-            <nav className="flex flex-col space-y-3">
+          <div className="lg:hidden py-2 border-t border-white/20">
+            <nav className="flex flex-col space-y-2">
               <Link 
                 to="/services" 
-                className="text-sm hover:text-primary transition-colors py-2"
+                className="text-xs hover:text-primary transition-colors py-1"
                 onClick={() => setMobileMenuOpen(false)}
               >
                 Services
               </Link>
               <Link 
                 to="/property-managers" 
-                className="text-sm hover:text-primary transition-colors py-2"
+                className="text-xs hover:text-primary transition-colors py-1"
                 onClick={() => setMobileMenuOpen(false)}
               >
                 Property Managers
               </Link>
               <Link 
                 to="/residents" 
-                className="text-sm hover:text-primary transition-colors py-2"
+                className="text-xs hover:text-primary transition-colors py-1"
                 onClick={() => setMobileMenuOpen(false)}
               >
                 Residents
               </Link>
               <Link 
                 to="/careers" 
-                className="text-sm hover:text-primary transition-colors py-2"
+                className="text-xs hover:text-primary transition-colors py-1"
                 onClick={() => setMobileMenuOpen(false)}
               >
                 Careers
               </Link>
               <Link 
                 to="/contact" 
-                className="text-sm hover:text-primary transition-colors py-2"
+                className="text-xs hover:text-primary transition-colors py-1"
                 onClick={() => setMobileMenuOpen(false)}
               >
                 Contact
               </Link>
-              <div className="flex flex-col space-y-2 pt-3">
+              <div className="flex flex-col space-y-1 pt-2">
                 <Button 
                   variant="outline" 
                   size="sm"
-                  className="bg-transparent border-white text-white hover:bg-white hover:text-[#005C56]"
+                  className="bg-transparent border-white text-white hover:bg-white hover:text-[#005C56] text-xs px-2 py-1 h-auto"
                   onClick={() => {
                     setMobileMenuOpen(false);
                     window.location.href = '/contact';
                   }}
                 >
-                  Request A Quote
+                  Quote
                 </Button>
                 <Button 
                   size="sm"
-                  className="bg-accent hover:bg-accent/90 text-white"
+                  className="bg-accent hover:bg-accent/90 text-white text-xs px-2 py-1 h-auto"
                   onClick={() => {
                     setMobileMenuOpen(false);
                     window.location.href = '/residents';
                   }}
                 >
-                  Resident Portal
+                  Portal
                 </Button>
               </div>
             </nav>
