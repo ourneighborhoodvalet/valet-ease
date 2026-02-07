@@ -32,13 +32,13 @@ export default function Header() {
             <Link to="/property-managers" className="hover:text-primary transition-colors text-lg">
               Property Managers
             </Link>
-            <Link to="/residents" className="text-xs hover:text-primary transition-colors">
+            <Link to="/residents" className="hover:text-primary transition-colors text-xl">
               Residents
             </Link>
-            <Link to="/careers" className="text-xs hover:text-primary transition-colors">
+            <Link to="/careers" className="hover:text-primary transition-colors text-xl">
               Careers
             </Link>
-            <Link to="/contact" className="text-xs hover:text-primary transition-colors">
+            <Link to="/contact" className="hover:text-primary transition-colors text-xl">
               Contact
             </Link>
           </nav>
@@ -48,14 +48,14 @@ export default function Header() {
             <Button 
               variant="outline" 
               size="sm"
-              className="bg-transparent border-white text-white hover:bg-white hover:text-[#005C56] transition-all text-xs px-2 py-1 h-auto"
+              className="bg-transparent border-white text-white hover:bg-white hover:text-[#005C56] transition-all px-2 py-1 h-auto text-xl"
               onClick={() => window.location.href = '/contact'}
             >
               Quote
             </Button>
             <Button 
               size="sm"
-              className="bg-accent hover:bg-accent/90 text-white transition-all text-xs px-2 py-1 h-auto"
+              className="bg-accent hover:bg-accent/90 text-white transition-all px-2 py-1 h-auto text-xl"
               onClick={() => window.location.href = '/residents'}
             >
               Portal
