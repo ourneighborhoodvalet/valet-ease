@@ -48,14 +48,14 @@ export default function Header() {
             <Button 
               variant="outline" 
               size="sm"
-              className="bg-transparent border-white text-white hover:bg-white hover:text-[#005C56] transition-all px-2 py-1 h-auto text-xl"
+              className="text-white hover:bg-white hover:text-[#005C56] transition-all px-2 py-1 h-auto text-xl bg-color-15 normal-case border-0 border-solid border-white"
               onClick={() => window.location.href = '/contact'}
             >
               Quote
             </Button>
             <Button 
               size="sm"
-              className="bg-accent hover:bg-accent/90 text-white transition-all px-2 py-1 h-auto text-xl"
+              className="hover:bg-accent/90 text-white transition-all px-2 py-1 h-auto text-xl bg-color-15"
               onClick={() => window.location.href = '/residents'}
             >
               Portal
