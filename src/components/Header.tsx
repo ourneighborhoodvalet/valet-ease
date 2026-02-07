@@ -20,6 +20,9 @@ export default function Header() {
 
           {/* Desktop Navigation */}
           <nav className="hidden lg:flex items-center space-x-8">
+            <Link to="/" className="text-sm hover:text-primary transition-colors">
+              Home
+            </Link>
             <Link to="/services" className="text-sm hover:text-primary transition-colors">
               Services
             </Link>
