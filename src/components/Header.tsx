@@ -20,22 +20,22 @@ export default function Header() {
               className="h-8 w-8"
               originWidth={1024}
               originHeight={1536} />
-            <span className="font-heading font-bold hidden sm:inline text-lg">Neighborhood Valet</span>
+            <span className="font-heading font-bold hidden sm:inline text-3xl">Neighborhood Valet</span>
           </Link>
 
           {/* Desktop Navigation */}
           <nav className="hidden lg:flex items-center space-x-5">
 
-            <Link to="/services" className="hover:text-primary transition-colors text-xl">
+            <Link to="/services" className="hover:text-primary transition-colors text-lg">
               Services
             </Link>
             <Link to="/property-managers" className="hover:text-primary transition-colors text-lg">
               Property Managers
             </Link>
-            <Link to="/residents" className="hover:text-primary transition-colors text-xl">
+            <Link to="/residents" className="hover:text-primary transition-colors text-lg">
               Residents
             </Link>
-            <Link to="/careers" className="hover:text-primary transition-colors text-xl">
+            <Link to="/careers" className="hover:text-primary transition-colors text-lg">
               Careers
             </Link>
             <Link to="/contact" className="hover:text-primary transition-colors text-xl">
