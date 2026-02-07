@@ -130,7 +130,7 @@ export default function PropertyManagersPage() {
                   <div className="w-14 h-14 bg-primary/10 rounded-2xl flex items-center justify-center mb-4">
                     <benefit.icon className="text-primary" size={28} />
                   </div>
-                 mb-3 text-foreground">
+                  <h3 className="font-heading text-xl mb-3 text-foreground">
                     {benefit.title}
                   </h3>
                   <p className="text-muted-foreground">
