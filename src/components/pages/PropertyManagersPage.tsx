@@ -8,11 +8,11 @@ import { Card } from '@/components/ui/card';
 
 const AnimatedSection: React.FC<{ children: React.ReactNode; className?: string }> = ({ children, className }) => {
   const ref = useRef<HTMLDivElement>(null);
-  
+
   useEffect(() => {
     const el = ref.current;
     if (!el) return;
-    
+
     const observer = new IntersectionObserver(
       ([entry]) => {
         if (entry.isIntersecting) {
@@ -22,11 +22,11 @@ const AnimatedSection: React.FC<{ children: React.ReactNode; className?: string 
       },
       { threshold: 0.1 }
     );
-    
+
     observer.observe(el);
     return () => observer.disconnect();
   }, []);
-  
+
   return (
     <div ref={ref} className={`opacity-0 translate-y-8 transition-all duration-700 ${className || ''}`}>
       <style>{`
@@ -49,7 +49,7 @@ export default function PropertyManagersPage() {
 
       {/* Hero Section */}
       <section className="relative py-24 bg-gradient-to-br from-[#005C56] to-primary overflow-hidden">
-        <div 
+        <div
           className="absolute inset-0 opacity-10"
           style={{
             backgroundImage: 'radial-gradient(circle, rgba(255,255,255,0.3) 1px, transparent 1px)',
@@ -65,7 +65,7 @@ export default function PropertyManagersPage() {
               <p className="text-xl text-white/90 mb-8">
                 Enhance your community with industry-leading amenity services that residents love and property managers trust
               </p>
-              <Button 
+              <Button
                 size="lg"
                 className="bg-white text-primary hover:bg-white/90 text-lg px-8 py-6 transition-all hover:scale-105"
                 onClick={() => navigate('/contact')}
@@ -123,14 +123,14 @@ export default function PropertyManagersPage() {
                   description: 'Decades of experience serving thousands of communities successfully'
                 }
               ].map((benefit, index) => (
-                <Card 
+                <Card
                   key={index}
                   className="p-6 hover:shadow-xl transition-all duration-300 hover:scale-105 bg-white"
                 >
                   <div className="w-14 h-14 bg-primary/10 rounded-2xl flex items-center justify-center mb-4">
                     <benefit.icon className="text-primary" size={28} />
                   </div>
-                  <h3 className="font-heading text-xl mb-3 text-foreground">
+                 mb-3 text-foreground">
                     {benefit.title}
                   </h3>
                   <p className="text-muted-foreground">
@@ -170,7 +170,7 @@ export default function PropertyManagersPage() {
                   ))}
                 </div>
               </div>
-              
+
               <div className="space-y-6">
                 <Card className="p-8 bg-gradient-to-br from-primary/5 to-accent/5 border-primary/20">
                   <div className="text-5xl font-bold text-primary mb-2">1000+</div>
@@ -222,14 +222,14 @@ export default function PropertyManagersPage() {
               Schedule a consultation to learn how Neighborhood Valet can enhance your properties
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
-              <Button 
+              <Button
                 size="lg"
                 className="bg-white text-primary hover:bg-white/90 text-lg px-8 py-6 transition-all hover:scale-105"
                 onClick={() => navigate('/contact')}
               >
                 Request A Quote
               </Button>
-              <Button 
+              <Button
                 size="lg"
                 variant="outline"
                 className="bg-transparent border-2 border-white text-white hover:bg-white hover:text-primary text-lg px-8 py-6 transition-all hover:scale-105"
