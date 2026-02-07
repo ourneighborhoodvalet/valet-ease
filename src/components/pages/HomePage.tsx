@@ -152,7 +152,7 @@ export default function HomePage() {
           />
           {/* Heavy Green Overlay matching screenshot */}
           <div className="absolute inset-0 bg-[#005C56]/90 mix-blend-multiply" />
-          <div className="absolute inset-0 bg-gradient-to-r from-[#005C56] via-[#005C56]/80 to-transparent opacity-90" />
+          <div className="absolute inset-0 from-[#005C56] via-[#005C56]/80 to-transparent opacity-90 bg-[#478544ff]" />
         </div>
 
         <div className="container mx-auto px-4 sm:px-6 relative z-10 pt-20">

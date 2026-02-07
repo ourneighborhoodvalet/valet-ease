@@ -9,8 +9,8 @@ export default function Header() {
 
   return (
     <header className="sticky top-0 z-50 bg-[#005C56] text-white shadow-md w-full">
-      <div className="w-full px-3">
-        <div className="flex items-center justify-between h-12 w-full">
+      <div className="w-full px-3 bg-color-15">
+        <div className="flex items-center justify-between h-12 w-full bg-[#052246ff]">
           {/* Logo */}
           <Link to="/" className="flex items-center space-x-2">
             <Image
@@ -20,7 +20,7 @@ export default function Header() {
               className="h-8 w-8"
               originWidth={1024}
               originHeight={1536} />
-            <span className="font-heading text-sm font-bold hidden sm:inline">Neighborhood Valet</span>
+            <span className="font-heading font-bold hidden sm:inline text-lg">Neighborhood Valet</span>
           </Link>
 
           {/* Desktop Navigation */}
