@@ -38,7 +38,8 @@ export default {
                 "accent-foreground": "#FFFFFF",
                 link: "#005C56",
                 "color-15": "#478544ff",
-                "color-16": "#052246ff"
+                "color-16": "#052246ff",
+                "color-17": "#647c90ff"
             },
         },
     },
