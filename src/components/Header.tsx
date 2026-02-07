@@ -2,6 +2,7 @@ import { useState } from 'react';
 import { Link } from 'react-router-dom';
 import { Menu, X, ChevronDown } from 'lucide-react';
 import { Button } from '@/components/ui/button';
+import { Image } from '@/components/ui/image';
 
 export default function Header() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
@@ -11,10 +12,14 @@ export default function Header() {
       <div className="w-full px-3">
         <div className="flex items-center justify-between h-12 w-full">
           {/* Logo */}
-          <Link to="/" className="flex items-center space-x-1.5">
-            <div className="w-6 h-6 bg-white rounded-full flex items-center justify-center text-xs font-bold">
-              NVS
-            </div>
+          <Link to="/" className="flex items-center space-x-2">
+            <Image 
+              src="https://static.wixstatic.com/media/e622ff_6185e1d228a34433867faf47577764b3~mv2.png?originWidth=192&originHeight=192" 
+              alt="Neighborhood Valet Services Logo"
+              width={32}
+              height={32}
+              className="h-8 w-8"
+            />
             <span className="font-heading text-sm font-bold hidden sm:inline">Neighborhood Valet</span>
           </Link>
 
