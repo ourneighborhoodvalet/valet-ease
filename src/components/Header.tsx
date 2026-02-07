@@ -13,13 +13,13 @@ export default function Header() {
         <div className="flex items-center justify-between h-12 w-full">
           {/* Logo */}
           <Link to="/" className="flex items-center space-x-2">
-            <Image 
-              src="https://static.wixstatic.com/media/e622ff_6185e1d228a34433867faf47577764b3~mv2.png?originWidth=192&originHeight=192" 
-              alt="Neighborhood Valet Services Logo"
+            <Image
+              src="https://static.wixstatic.com/media/e622ff_5a3efa5e04b048d6a88f82fb7525957b~mv2.png"
               width={32}
               height={32}
               className="h-8 w-8"
-            />
+              originWidth={1024}
+              originHeight={1536} />
             <span className="font-heading text-sm font-bold hidden sm:inline">Neighborhood Valet</span>
           </Link>
 
