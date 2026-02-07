@@ -141,7 +141,6 @@ export default function HomePage() {
   return (
     <div className="min-h-screen bg-background font-paragraph overflow-x-hidden selection:bg-primary/20 selection:text-primary">
       <Header />
-
       {/* --- HERO SECTION --- */}
       <section className="relative min-h-[85vh] flex items-center overflow-hidden">
         {/* Background Image with Parallax Feel */}
@@ -159,9 +158,7 @@ export default function HomePage() {
         <div className="container mx-auto px-4 sm:px-6 relative z-10 pt-20">
           <div className="max-w-4xl">
             <AnimatedSection delay={100}>
-              <h1 className="font-heading text-4xl md:text-5xl lg:text-7xl text-white mb-8 leading-[1.1] tracking-tight drop-shadow-lg">
-                Valet Living – Trash & Amenity Services for Apartments, Condos & Multifamily Communities
-              </h1>
+              <h1 className="font-heading text-4xl md:text-5xl lg:text-7xl text-white mb-8 leading-[1.1] tracking-tight drop-shadow-lg">Vale – Trash & Amenity Services for Apartments, Condos & Multifamily Communities</h1>
             </AnimatedSection>
             
             <AnimatedSection delay={300}>
@@ -211,7 +208,6 @@ export default function HomePage() {
         {/* Decorative Bottom Curve/Gradient */}
         <div className="absolute bottom-0 left-0 right-0 h-32 bg-gradient-to-t from-background to-transparent z-10" />
       </section>
-
       {/* --- PARTNERS MARQUEE --- */}
       <section className="py-16 bg-background border-b border-border/40">
         <div className="container mx-auto px-4 mb-10">
@@ -245,7 +241,6 @@ export default function HomePage() {
           </div>
         </div>
       </section>
-
       {/* --- SERVICES SECTION --- */}
       <section className="py-24 bg-secondary/30 relative overflow-hidden">
         {/* Decorative background elements */}
@@ -306,7 +301,6 @@ export default function HomePage() {
           </div>
         </div>
       </section>
-
       {/* --- WHY CHOOSE US --- */}
       <section className="py-24 bg-white relative">
         <div className="container mx-auto px-4">
@@ -370,7 +364,6 @@ export default function HomePage() {
           </div>
         </div>
       </section>
-
       {/* --- TESTIMONIAL / QUOTE --- */}
       <section className="py-20 bg-primary text-white relative overflow-hidden">
         <div className="absolute inset-0 bg-[url('https://www.transparenttextures.com/patterns/cubes.png')] opacity-10" />
@@ -392,7 +385,6 @@ export default function HomePage() {
           </AnimatedSection>
         </div>
       </section>
-
       {/* --- CTA SECTION --- */}
       <section className="py-24 bg-gradient-to-br from-[#005C56] to-[#004a45] relative overflow-hidden">
         {/* Abstract shapes */}
@@ -430,9 +422,7 @@ export default function HomePage() {
           </AnimatedSection>
         </div>
       </section>
-
       <Footer />
-
       {/* Video Modal (Mock) */}
       {isVideoModalOpen && (
         <div className="fixed inset-0 z-50 flex items-center justify-center bg-black/90 backdrop-blur-sm p-4 animate-in fade-in duration-300">
@@ -454,7 +444,6 @@ export default function HomePage() {
           </div>
         </div>
       )}
-
       <style>{`
         @keyframes scroll {
           0% { transform: translateX(0); }

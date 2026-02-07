@@ -7,9 +7,9 @@ export default function Header() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
 
   return (
-    <header className="sticky top-0 z-50 bg-[#005C56] text-white shadow-md">
-      <div className="container mx-auto px-3">
-        <div className="flex items-center justify-between h-12">
+    <header className="sticky top-0 z-50 bg-[#005C56] text-white shadow-md w-full">
+      <div className="w-full px-3">
+        <div className="flex items-center justify-between h-12 w-full">
           {/* Logo */}
           <Link to="/" className="flex items-center space-x-1.5">
             <div className="w-6 h-6 bg-white rounded-full flex items-center justify-center text-xs font-bold">
