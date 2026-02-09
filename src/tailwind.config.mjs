@@ -19,8 +19,9 @@ export default {
                 '9xl': ['6rem', { lineHeight: '1', letterSpacing: '-0.01em', fontWeight: 'bold' }],
             },
             fontFamily: {
-                heading: "Libre Baskerville",
-                paragraph: "Open Sans"
+                heading: ["Libre Baskerville"],
+                paragraph: ["Open Sans"],
+                roboto: ["roboto", "sans-serif"]
             },
             colors: {
                 primary: "#1FA89A",
