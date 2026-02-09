@@ -14,12 +14,12 @@ export default function Header() {
           {/* Logo */}
           <Link to="/" className="flex items-center space-x-2">
             <Image
-              src="https://static.wixstatic.com/media/e622ff_5a3efa5e04b048d6a88f82fb7525957b~mv2.png"
-              width={32}
-              height={32}
-              className="h-8 w-8"
-              originWidth={1024}
-              originHeight={1536} />
+              src="https://static.wixstatic.com/media/e622ff_1c65c00cdf314db69393a7d8eba51d61~mv2.png"
+              width={48}
+              height={48}
+              className="h-12 w-12"
+              originWidth={1536}
+              originHeight={1024} />
             <span className="font-heading font-bold hidden sm:inline text-3xl text-accent-foreground">Neighborhood Valet</span>
           </Link>
 
