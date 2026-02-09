@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import { Link } from 'react-router-dom';
-import { Menu, X, ChevronDown } from 'lucide-react';
+import { Menu, X } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import { Image } from '@/components/ui/image';
 import {
@@ -14,24 +14,23 @@ export default function Header() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
 
   return (
-    <header className="sticky top-0 z-50 bg-[#005C56] text-white shadow-md w-full">
-      <div className="w-full px-3 bg-color-16">
-        <div className="flex items-center justify-between h-12 w-full bg-color-17">
+    <header className="sticky top-0 z-50 bg-[#005C56] text-white w-full">
+      <div className="w-full px-4 py-3">
+        <div className="flex items-center justify-between">
           {/* Logo */}
-          <Link to="/" className="flex items-center space-x-2">
+          <Link to="/" className="flex items-center space-x-3">
             <Image
               src="https://static.wixstatic.com/media/e622ff_1c65c00cdf314db69393a7d8eba51d61~mv2.png"
-              width={48}
-              height={48}
-              className="h-12 w-12"
+              width={64}
+              height={64}
+              className="h-16 w-16"
               originWidth={1536}
               originHeight={1024} />
-            <span className="font-bold hidden sm:inline text-3xl text-accent-foreground font-roboto">Neighborhood Valet Services</span>
+            <span className="font-bold hidden sm:inline text-2xl text-accent-foreground font-roboto">Neighborhood Valet Services</span>
           </Link>
 
           {/* Desktop Navigation */}
           <nav className="hidden lg:flex items-center space-x-5">
-
             <Link to="/services" className="hover:text-primary transition-colors text-lg">
               Services
             </Link>
@@ -55,10 +54,13 @@ export default function Header() {
               <DropdownMenuTrigger asChild>
                 <Button 
                   size="sm"
-                  className="hover:bg-accent/90 text-white transition-all px-3 py-1 h-auto text-lg bg-color-15 flex items-center gap-2"
+                  className="hover:bg-accent/90 text-white transition-all px-3 py-2 h-auto bg-color-15 flex items-center gap-2"
                 >
-                  Actions
-                  <ChevronDown size={16} />
+                  <div className="flex flex-col gap-1">
+                    <div className="w-5 h-0.5 bg-white"></div>
+                    <div className="w-5 h-0.5 bg-white"></div>
+                    <div className="w-5 h-0.5 bg-white"></div>
+                  </div>
                 </Button>
               </DropdownMenuTrigger>
               <DropdownMenuContent align="end" className="w-40">
@@ -84,17 +86,17 @@ export default function Header() {
 
           {/* Mobile Menu Button */}
           <button
-            className="lg:hidden p-1"
+            className="lg:hidden p-2"
             onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
             aria-label="Toggle menu"
           >
-            {mobileMenuOpen ? <X size={20} /> : <Menu size={20} />}
+            {mobileMenuOpen ? <X size={24} /> : <Menu size={24} />}
           </button>
         </div>
 
         {/* Mobile Menu */}
         {mobileMenuOpen && (
-          <div className="lg:hidden py-2 border-t border-white/20">
+          <div className="lg:hidden py-3 border-t border-white/20">
             <nav className="flex flex-col space-y-2">
               <Link 
                 to="/services" 
