@@ -174,7 +174,7 @@ export default function HomePage() {
                 <div className="flex flex-col sm:flex-row items-start sm:items-center gap-6 mb-10">
                   <button onClick={() => setIsVideoModalOpen(true)} className="group flex items-center space-x-4 text-white hover:text-accent transition-colors duration-300">
                     <div className="w-16 h-16 bg-white rounded-full flex items-center justify-center shadow-lg group-hover:scale-110 transition-transform duration-300">
-                      <Play className="text-primary ml-1 fill-primary" size={28} />
+                      <Play className="text-primary ml-1 fill-[#478544ff]" size={28} />
                     </div>
                     <span className="text-lg font-semibold tracking-wide border-b-2 border-transparent group-hover:border-accent pb-0.5">
                       Let us show you.

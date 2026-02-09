@@ -3,6 +3,12 @@ import { Link } from 'react-router-dom';
 import { Menu, X, ChevronDown } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import { Image } from '@/components/ui/image';
+import {
+  DropdownMenu,
+  DropdownMenuContent,
+  DropdownMenuItem,
+  DropdownMenuTrigger,
+} from '@/components/ui/dropdown-menu';
 
 export default function Header() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
@@ -20,7 +26,7 @@ export default function Header() {
               className="h-12 w-12"
               originWidth={1536}
               originHeight={1024} />
-            <span className="font-bold hidden sm:inline text-3xl text-accent-foreground font-roboto">Neighborhood Valet</span>
+            <span className="font-bold hidden sm:inline text-3xl text-accent-foreground font-roboto">Neighborhood Valet Services</span>
           </Link>
 
           {/* Desktop Navigation */}
@@ -43,23 +49,37 @@ export default function Header() {
             </Link>
           </nav>
 
-          {/* CTA Buttons */}
-          <div className="hidden lg:flex items-center space-x-2">
-            <Button 
-              variant="outline" 
-              size="sm"
-              className="text-white hover:bg-white hover:text-[#005C56] transition-all px-2 py-1 h-auto text-xl bg-color-15 normal-case border-0 border-solid border-white"
-              onClick={() => window.location.href = '/contact'}
-            >
-              Quote
-            </Button>
-            <Button 
-              size="sm"
-              className="hover:bg-accent/90 text-white transition-all px-2 py-1 h-auto text-xl bg-color-15"
-              onClick={() => window.location.href = '/residents'}
-            >
-              Portal
-            </Button>
+          {/* CTA Buttons Dropdown */}
+          <div className="hidden lg:flex items-center">
+            <DropdownMenu>
+              <DropdownMenuTrigger asChild>
+                <Button 
+                  size="sm"
+                  className="hover:bg-accent/90 text-white transition-all px-3 py-1 h-auto text-lg bg-color-15 flex items-center gap-2"
+                >
+                  Actions
+                  <ChevronDown size={16} />
+                </Button>
+              </DropdownMenuTrigger>
+              <DropdownMenuContent align="end" className="w-40">
+                <DropdownMenuItem asChild>
+                  <button
+                    className="w-full text-left px-2 py-2 hover:bg-secondary cursor-pointer"
+                    onClick={() => window.location.href = '/contact'}
+                  >
+                    Quote
+                  </button>
+                </DropdownMenuItem>
+                <DropdownMenuItem asChild>
+                  <button
+                    className="w-full text-left px-2 py-2 hover:bg-secondary cursor-pointer"
+                    onClick={() => window.location.href = '/residents'}
+                  >
+                    Portal
+                  </button>
+                </DropdownMenuItem>
+              </DropdownMenuContent>
+            </DropdownMenu>
           </div>
 
           {/* Mobile Menu Button */}
