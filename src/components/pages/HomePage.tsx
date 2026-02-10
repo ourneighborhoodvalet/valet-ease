@@ -158,9 +158,9 @@ export default function HomePage() {
                 <div className="flex flex-col sm:flex-row items-start sm:items-center gap-6 mb-10">
                   <button onClick={() => setIsVideoModalOpen(true)} className="group flex items-center space-x-4 text-white hover:text-accent transition-colors duration-300">
                     <div className="w-16 h-16 bg-white rounded-full flex items-center justify-center shadow-lg group-hover:scale-110 transition-transform duration-300">
-                      <Play className="text-primary ml-1 fill-[#478544ff]" size={28} />
+                      <Play className="text-primary ml-1 fill-dark-green" size={28} />
                     </div>
-                    <span className="text-lg font-semibold tracking-wide border-b-2 border-transparent group-hover:border-accent pb-0.5">
+                    <span className="text-lg font-semibold tracking-wide border-b-2 border-transparent group-hover:border-accent pb-0.5 text-dark-green">
                       Let us show you.
                     </span>
                   </button>
@@ -169,7 +169,7 @@ export default function HomePage() {
 
               <AnimatedSection delay={700}>
                 <div className="flex flex-col sm:flex-row gap-5">
-                  <Button size="lg" className="hover:bg-accent/90 text-white text-lg px-10 py-7 rounded-full transition-all hover:translate-y-[-2px] shadow-xl font-semibold tracking-wide bg-[#478544ff]" onClick={() => navigate('/property-managers')}>
+                  <Button size="lg" className="hover:bg-accent/90 text-white text-lg px-10 py-7 rounded-full transition-all hover:translate-y-[-2px] shadow-xl font-semibold tracking-wide bg-dark-green" onClick={() => navigate('/property-managers')}>
                     Property Managers
                   </Button>
                   <Button size="lg" variant="outline" className="bg-transparent border-2 border-white text-white hover:bg-white hover:text-[#005C56] text-lg px-10 py-7 rounded-full transition-all hover:translate-y-[-2px] backdrop-blur-sm font-semibold tracking-wide" onClick={() => navigate('/residents')}>
@@ -199,7 +199,7 @@ export default function HomePage() {
       </section>
       {/* --- PARTNERS MARQUEE --- */}
       {/* --- SERVICES SECTION --- */}
-      <section className="py-24 from-[#005C56]/20 via-secondary/30 to-secondary/30 relative overflow-hidden bg-accent">
+      <section className="py-24 from-[#005C56]/20 via-secondary/30 to-secondary/30 relative overflow-hidden bg-[#3d6e48ff]">
         {/* Decorative background elements */}
         <div className="absolute top-0 right-0 w-[500px] h-[500px] bg-primary/5 rounded-full blur-3xl -translate-y-1/2 translate-x-1/2" />
         <div className="absolute bottom-0 left-0 w-[500px] h-[500px] bg-accent/5 rounded-full blur-3xl translate-y-1/2 -translate-x-1/2" />
@@ -302,7 +302,7 @@ export default function HomePage() {
                       <div className="mt-1 flex-shrink-0 w-6 h-6 rounded-full bg-accent/10 flex items-center justify-center group-hover:bg-accent group-hover:scale-110 transition-all duration-300">
                         <CheckCircle className="text-accent w-4 h-4 group-hover:text-white transition-colors fill-secondary-foreground" />
                       </div>
-                      <p className="text-foreground/80 group-hover:text-foreground transition-colors">{benefit}</p>
+                      <p className="group-hover:text-foreground transition-colors text-background">{benefit}</p>
                     </div>
                   ))}
                 </div>

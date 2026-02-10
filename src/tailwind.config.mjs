@@ -32,12 +32,12 @@ export default {
                 mansalva: ["mansalva", "cursive"]
             },
             colors: {
-                primary: "#478544ff",
+                primary: "#84c592ff",
                 "primary-foreground": "#968e8eff",
                 secondary: "#F5F7F9",
                 "secondary-foreground": "#1A1A1A",
                 background: "#FFFFFF",
-                accent: "#478544ff",
+                accent: "#84c592ff",
                 foreground: "#1A1A1A",
                 muted: "#F8F9FA",
                 "muted-foreground": "#6B7280",
@@ -52,7 +52,8 @@ export default {
                 "dark-blue-2": "#181e28ff",
                 "dark-blue-3": "#0b1f3aff",
                 "dark-navy-4": "#001f3fff",
-                "dark-navy-5": "#101820ff"
+                "dark-navy-5": "#101820ff",
+                "dark-green": "#3d6e48ff"
             },
         },
     },
