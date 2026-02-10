@@ -158,7 +158,8 @@ export default function HomePage() {
         <div className="w-full relative z-10 pt-24 pb-16 lg:pb-24 xl:pb-32">
           <div className="w-full px-4 sm:px-6 mb-16">
             <AnimatedSection delay={100}>
-              <h1 className="font-heading text-5xl md:text-6xl lg:text-7xl xl:text-8xl text-white leading-[1.1] tracking-tight drop-shadow-lg max-w-full">Neighborhood Valet Trash & Amenity Services for Apartments, Condos & Multifamily Communities</h1>
+              <h1 className="font-heading text-5xl md:text-6xl lg:text-7xl xl:text-8xl text-white leading-[1.1] tracking-tight drop-shadow-lg max-w-full">Neighborhood Valet Services
+              Premium Trash & Amenity Services for Apartments, Condos & Multifamily Communities</h1>
             </AnimatedSection>
           </div>
 
