@@ -1,25 +1,21 @@
 // WI-HPI
-import { useEffect, useRef, useState } from 'react';
-import { useNavigate, Link } from 'react-router-dom';
-import {
-  ArrowRight,
-  CheckCircle,
-  Users,
-  Building2,
-  Recycle,
-  TrendingUp,
-  Play,
-  ChevronRight,
-  Star,
-  Quote,
-  ArrowUpRight
-} from 'lucide-react';
-import Header from '@/components/Header';
 import Footer from '@/components/Footer';
+import Header from '@/components/Header';
+import { Badge } from '@/components/ui/badge';
 import { Button } from '@/components/ui/button';
 import { Card, CardContent } from '@/components/ui/card';
 import { Image } from '@/components/ui/image';
-import { Badge } from '@/components/ui/badge';
+import {
+  ArrowRight,
+  Building2,
+  CheckCircle,
+  Play,
+  Quote,
+  Recycle,
+  Star
+} from 'lucide-react';
+import { useEffect, useRef, useState } from 'react';
+import { Link, useNavigate } from 'react-router-dom';
 
 // --- ANIMATION COMPONENTS ---
 
@@ -138,7 +134,7 @@ export default function HomePage() {
           />
           {/* Heavy Green Overlay matching screenshot */}
           <div className="absolute inset-0 bg-[#005C56]/90 mix-blend-multiply" />
-          <div className="absolute inset-0 bg-gradient-to-b from-[#005C56] via-[#003B37]/80 to-transparent opacity-90" />
+
         </div>
 
         <div className="w-full relative z-10 pt-24 pb-16 lg:pb-24 xl:pb-32">
