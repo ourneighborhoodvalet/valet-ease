@@ -271,7 +271,7 @@ export default function HomePage() {
         </div>
       </section>
       {/* --- WHY CHOOSE US --- */}
-      <section className="py-24 relative bg-color-17">
+      <section className="py-24 relative bg-[#478544ff]">
         <div className="container mx-auto px-4">
           <div className="grid lg:grid-cols-2 gap-16 items-center">
             <AnimatedSection direction="right">
@@ -326,13 +326,15 @@ export default function HomePage() {
         <div className="container mx-auto px-4 relative z-10 text-center">
           <AnimatedSection>
             <Quote className="w-16 h-16 mx-auto mb-8 text-white/30" />
-            <h3 className="font-heading text-2xl md:text-4xl lg:text-5xl max-w-4xl mx-auto leading-tight mb-10">
-              "Valet Living has completely transformed how we manage waste at our properties. The residents love the convenience, and my team loves the reliability."
-            </h3>
+            <h3 className="font-heading text-2xl md:text-4xl lg:text-5xl max-w-4xl mx-auto leading-tight mb-10">“Our mission is to deliver personal,
+            reliable valet trash services with a hands-on approach, bringing Southern
+            hospitality and pride to every doorstep. We aim to keep our communities clean,
+            our clients happy, and the competition envious, without ever losing our
+            personal touch.”</h3>
             <div className="flex items-center justify-center space-x-4">
               <div className="text-right">
                 <p className="font-bold text-xl">Sarah Jenkins</p>
-                <p className="text-white/80">Regional Property Manager</p>
+                <p className="text-white/80">Owner Operator</p>
               </div>
               <div className="w-12 h-12 bg-white/20 rounded-full flex items-center justify-center">
                 <Star className="w-6 h-6 text-yellow-400 fill-yellow-400" />
@@ -351,9 +353,7 @@ export default function HomePage() {
 
         <div className="container mx-auto px-4 text-center relative z-10">
           <AnimatedSection>
-            <h2 className="font-heading text-4xl md:text-5xl text-white mb-6">
-              Ready to Enhance Your Community?
-            </h2>
+            <h2 className="font-heading text-4xl md:text-5xl text-white mb-6">Leave Them ?</h2>
             <p className="text-xl text-white/80 mb-12 max-w-2xl mx-auto font-light">
               Join thousands of satisfied property managers and residents who trust Valet Living for their amenity services.
             </p>
