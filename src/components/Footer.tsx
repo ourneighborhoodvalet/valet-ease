@@ -65,20 +65,20 @@ export default function Footer() {
 
           {/* Company */}
           <div>
-            <h3 className="font-heading text-lg font-bold mb-4">Company</h3>
+            <h3 className="font-heading text-lg font-bold mb-4 text-dark-green">Company</h3>
             <ul className="space-y-2">
               <li>
-                <Link to="/property-managers" className="text-sm text-white/80 hover:text-primary transition-colors">
+                <Link to="/property-managers" className="text-sm hover:text-primary transition-colors text-dark-green">
                   Property Managers
                 </Link>
               </li>
               <li>
-                <Link to="/residents" className="text-sm text-white/80 hover:text-primary transition-colors">
+                <Link to="/residents" className="text-sm hover:text-primary transition-colors text-dark-green">
                   Residents
                 </Link>
               </li>
               <li>
-                <Link to="/careers" className="text-sm text-white/80 hover:text-primary transition-colors">
+                <Link to="/careers" className="text-sm hover:text-primary transition-colors text-dark-green">
                   Careers
                 </Link>
               </li>
@@ -110,7 +110,7 @@ export default function Footer() {
         {/* Bottom Bar */}
         <div className="border-t border-white/20 pt-6">
           <div className="flex flex-col md:flex-row justify-between items-center space-y-4 md:space-y-0">
-            <p className="text-sm text-white/80">
+            <p className="text-sm text-dark-green">
               © 2026 neighborhoodvalet.com. All rights reserved.
             </p>
             <div className="flex flex-wrap justify-center gap-4 text-sm text-white/80">
