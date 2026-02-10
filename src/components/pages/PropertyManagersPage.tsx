@@ -108,9 +108,9 @@ export default function PropertyManagersPage() {
                   description: 'Turn amenities into profit centers with our proven service models'
                 },
                 {
-                  icon: Award,
-                  title: 'Industry Leader',
-                  description: 'Trusted by the largest property management companies nationwide'
+                  
+
+
                 },
                 {
                   icon: BarChart3,
