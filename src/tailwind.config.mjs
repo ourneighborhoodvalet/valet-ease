@@ -25,12 +25,12 @@ export default {
                 k2d: ["k2d", "sans-serif"]
             },
             colors: {
-                primary: "#1FA89A",
-                "primary-foreground": "#FFFFFF",
+                primary: "#478544ff",
+                "primary-foreground": "#968e8eff",
                 secondary: "#F5F7F9",
                 "secondary-foreground": "#1A1A1A",
                 background: "#FFFFFF",
-                accent: "#6B9E00",
+                accent: "#478544ff",
                 foreground: "#1A1A1A",
                 muted: "#F8F9FA",
                 "muted-foreground": "#6B7280",

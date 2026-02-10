@@ -165,7 +165,7 @@ export default function HomePage() {
           <div className="container mx-auto px-4 sm:px-6 grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-16 items-center">
             <div className="lg:col-span-1">
               <AnimatedSection delay={300}>
-                <p className="text-xl md:text-2xl text-white/90 mb-8 font-light max-w-2xl leading-relaxed drop-shadow-md">Locally Owned & Owner-Operated Valet</p>
+                <p className="text-xl md:text-2xl text-white/90 mb-8 font-light max-w-2xl leading-relaxed drop-shadow-md">Locally Owned & Owner-Operated</p>
               </AnimatedSection>
 
               <AnimatedSection delay={500}>
@@ -213,7 +213,7 @@ export default function HomePage() {
       </section>
       {/* --- PARTNERS MARQUEE --- */}
       {/* --- SERVICES SECTION --- */}
-      <section className="py-24 bg-gradient-to-b from-[#005C56]/20 via-secondary/30 to-secondary/30 relative overflow-hidden">
+      <section className="py-24 from-[#005C56]/20 via-secondary/30 to-secondary/30 relative overflow-hidden bg-accent-foreground">
         {/* Decorative background elements */}
         <div className="absolute top-0 right-0 w-[500px] h-[500px] bg-primary/5 rounded-full blur-3xl -translate-y-1/2 translate-x-1/2" />
         <div className="absolute bottom-0 left-0 w-[500px] h-[500px] bg-accent/5 rounded-full blur-3xl translate-y-1/2 -translate-x-1/2" />
