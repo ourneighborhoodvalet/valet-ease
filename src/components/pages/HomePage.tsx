@@ -273,18 +273,20 @@ export default function HomePage() {
         </div>
       </section>
       {/* --- WHY CHOOSE US --- */}
-      <section className="py-24 bg-white relative">
+      <section className="py-24 relative bg-color-17">
         <div className="container mx-auto px-4">
           <div className="grid lg:grid-cols-2 gap-16 items-center">
             <AnimatedSection direction="right">
               <div className="relative">
                 <div className="absolute -inset-4 bg-gradient-to-br from-primary/20 to-accent/20 rounded-[2rem] blur-lg -z-10" />
                 <div className="relative rounded-[2rem] overflow-hidden shadow-2xl aspect-[4/3] group">
-                  <Image 
-                    src="https://static.wixstatic.com/media/e622ff_6f800a7fd97144f8b4bfa29de51b1676~mv2.png?originWidth=1152&originHeight=896" 
-                    alt="Valet Living Team Member" 
-                    className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
-                  />
+                  <Image
+                    src="https://static.wixstatic.com/media/e622ff_fc025d7a51534730a4259a9506d9e0fb~mv2.png"
+                    className="w-full h-full object-contain transition-transform duration-700 group-hover:scale-105"
+                    originWidth={1024}
+                    originHeight={1536}
+                    focalPointX={49.0234375}
+                    focalPointY={29.654947916666668} />
                   <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent" />
                   {/* Floating Stat Card */}
 
@@ -295,7 +297,7 @@ export default function HomePage() {
             <AnimatedSection direction="left">
               <div>
                 <h2 className="font-heading text-3xl md:text-4xl lg:text-5xl mb-8 text-foreground leading-tight">Why Choose Us</h2>
-                <p className="text-lg text-muted-foreground mb-10">Reliable pickups, clear communication, and simple guidelines that reduce mess—backed by quick reporting when something needs attention. We tailor service to your community, integrate smoothly, and deliver peace of mind, making non-NVS properties a little envious.</p>
+                <p className="text-lg mb-10 text-secondary-foreground">Reliable pickups, clear communication, and simple guidelines that reduce mess—backed by quick reporting when something needs attention. We tailor service to your community, integrate smoothly, and deliver peace of mind, making non-NVS properties a little envious.</p>
                 
                 <div className="space-y-6 mb-10">
                   {BENEFITS.map((benefit, index) => (
