@@ -1,21 +1,25 @@
 // WI-HPI
-import Footer from '@/components/Footer';
+import { useEffect, useRef, useState } from 'react';
+import { useNavigate, Link } from 'react-router-dom';
+import {
+  ArrowRight,
+  CheckCircle,
+  Users,
+  Building2,
+  Recycle,
+  TrendingUp,
+  Play,
+  ChevronRight,
+  Star,
+  Quote,
+  ArrowUpRight
+} from 'lucide-react';
 import Header from '@/components/Header';
-import { Badge } from '@/components/ui/badge';
+import Footer from '@/components/Footer';
 import { Button } from '@/components/ui/button';
 import { Card, CardContent } from '@/components/ui/card';
 import { Image } from '@/components/ui/image';
-import {
-  ArrowRight,
-  Building2,
-  CheckCircle,
-  Play,
-  Quote,
-  Recycle,
-  Star
-} from 'lucide-react';
-import { useEffect, useRef, useState } from 'react';
-import { Link, useNavigate } from 'react-router-dom';
+import { Badge } from '@/components/ui/badge';
 
 // --- ANIMATION COMPONENTS ---
 
@@ -103,8 +107,8 @@ const SERVICES = [
 ];
 
 const BENEFITS = [
-  'Industry-leading service reliability (99.8% pickup rate)',
-  'Proven track record with major property management companies',
+
+  
   'Enhanced resident satisfaction and retention scores',
   'Streamlined waste management operations',
   'Professional, background-checked, and uniformed service teams',
@@ -126,7 +130,7 @@ export default function HomePage() {
       {/* --- HERO SECTION --- */}
       <section className="relative min-h-[85vh] flex items-center overflow-hidden">
         {/* Background Image with Parallax Feel */}
-        <div className="absolute inset-0 z-0 opacity-[0.95] shadow-[inset_0px_0px_4px_0px_#bfbfbf] mix-blend-normal bg-primary">
+        <div className="absolute inset-0 z-0 opacity-[0.95] shadow-[inset_0px_0px_4px_0px_#bfbfbf] mix-blend-normal">
           <Image
             src="https://static.wixstatic.com/media/e622ff_07851b8bdf4949319123806fe9252bda~mv2.png?originWidth=1280&originHeight=704"
             alt="Valet Living Office"
@@ -134,8 +138,7 @@ export default function HomePage() {
           />
           {/* Heavy Green Overlay matching screenshot */}
           <div className="absolute inset-0 bg-[#005C56]/90 mix-blend-multiply" />
-
-
+          <div className="absolute inset-0 from-[#005C56] via-[#005C56]/80 to-transparent opacity-90 bg-dark-blue-3" />
         </div>
 
         <div className="w-full relative z-10 pt-24 pb-16 lg:pb-24 xl:pb-32">
