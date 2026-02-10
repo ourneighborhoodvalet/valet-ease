@@ -28,44 +28,26 @@ const router = createBrowserRouter([
       {
         index: true,
         element: <HomePage />,
-        routeMetadata: {
-          pageIdentifier: 'home',
-        },
       },
       {
         path: "services",
         element: <ServicesPage />,
-        routeMetadata: {
-          pageIdentifier: 'services',
-        },
       },
       {
         path: "property-managers",
         element: <PropertyManagersPage />,
-        routeMetadata: {
-          pageIdentifier: 'property-managers',
-        },
       },
       {
         path: "residents",
         element: <ResidentsPage />,
-        routeMetadata: {
-          pageIdentifier: 'residents',
-        },
       },
       {
         path: "careers",
         element: <CareersPage />,
-        routeMetadata: {
-          pageIdentifier: 'careers',
-        },
       },
       {
         path: "contact",
         element: <ContactPage />,
-        routeMetadata: {
-          pageIdentifier: 'contact',
-        },
       },
       {
         path: "*",
