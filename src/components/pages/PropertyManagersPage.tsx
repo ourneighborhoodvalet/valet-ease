@@ -1,10 +1,10 @@
-import { useEffect, useRef } from 'react';
-import { useNavigate } from 'react-router-dom';
-import { CheckCircle, TrendingUp, Users, DollarSign, Award, BarChart3 } from 'lucide-react';
-import Header from '@/components/Header';
 import Footer from '@/components/Footer';
+import Header from '@/components/Header';
 import { Button } from '@/components/ui/button';
 import { Card } from '@/components/ui/card';
+import { Award, BarChart3, CheckCircle, DollarSign, TrendingUp, Users } from 'lucide-react';
+import { useEffect, useRef } from 'react';
+import { useNavigate } from 'react-router-dom';
 
 const AnimatedSection: React.FC<{ children: React.ReactNode; className?: string }> = ({ children, className }) => {
   const ref = useRef<HTMLDivElement>(null);
@@ -118,9 +118,7 @@ export default function PropertyManagersPage() {
                   description: 'Streamline operations and reduce staff workload with our services'
                 },
                 {
-                  icon: CheckCircle,
-                  title: 'Proven Track Record',
-                  description: 'Decades of experience serving thousands of communities successfully'
+
                 }
               ].map((benefit, index) => (
                 <Card
