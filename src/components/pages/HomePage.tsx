@@ -270,7 +270,7 @@ export default function HomePage() {
           </div>
         </div>
       </section>
-      <section className="py-24 relative bg-[#cee3f5ff]">
+      <section className="py-24 relative bg-color-16">
         <div className="container mx-auto px-4">
           <div className="grid lg:grid-cols-2 gap-16 items-center">
             <AnimatedSection direction="right">
@@ -293,8 +293,8 @@ export default function HomePage() {
 
             <AnimatedSection direction="left">
               <div>
-                <h2 className="font-heading text-3xl md:text-4xl lg:text-5xl mb-8 text-foreground leading-tight">Why Us ?</h2>
-                <p className="text-lg mb-10 text-secondary-foreground">Reliable pickups, clear communication, and simple guidelines that reduce mess—backed by quick reporting when something needs attention. We tailor service to your community, integrate smoothly, and deliver peace of mind, making non-NVS properties a little envious.</p>
+                <h2 className="font-heading text-3xl md:text-4xl lg:text-5xl mb-8 leading-tight text-background">Why Us ?</h2>
+                <p className="text-lg mb-10 text-background">Reliable pickups, clear communication, and simple guidelines that reduce mess—backed by quick reporting when something needs attention. We tailor service to your community, integrate smoothly, and deliver peace of mind, making non-NVS properties a little envious.</p>
                 
                 <div className="space-y-6 mb-10">
                   {BENEFITS.map((benefit, index) => (
@@ -322,7 +322,7 @@ export default function HomePage() {
       {/* --- WHY CHOOSE US --- */}
       {/* --- TESTIMONIAL / QUOTE --- */}
       <section className="py-20 bg-primary text-white relative overflow-hidden">
-        <div className="absolute inset-0 bg-[url('https://www.transparenttextures.com/patterns/cubes.png')] opacity-10" />
+        <div className="absolute inset-0 bg-[url('https://www.transparenttextures.com/patterns/cubes.png')] opacity-10 text-color-17 bg-color-16" />
         <div className="container mx-auto px-4 relative z-10 text-center">
           <AnimatedSection>
             <Quote className="w-16 h-16 mx-auto mb-8 text-white/30" />
