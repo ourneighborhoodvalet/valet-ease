@@ -227,9 +227,14 @@ export default function HomePage() {
               <h2 className="font-heading text-4xl md:text-5xl text-foreground mb-6">
                 Comprehensive Amenity Services
               </h2>
-              <p className="text-lg text-muted-foreground leading-relaxed">
-                We provide essential services that enhance the living experience for residents and streamline operations for property managers, setting the standard for multifamily living.
-              </p>
+              <p className="text-lg text-muted-foreground leading-relaxed">we
+              believe in elevating communities one doorstep at a time. We’re driven by pride,
+              reliability, and commitment to personal service. As a hands-on owner-operator,
+              I’m always on-site, ensuring every detail is done right. We don’t dream of
+              scaling up like the big guys. Instead, we focus on perfection, delivering
+              Southern hospitality with a personal touch. We entered this business because we
+              saw larger competitors losing that caring edge. Our goal? To leave every
+              neighbor—especially those without NVS—a little envious</p>
             </AnimatedSection>
           </div>
 
@@ -281,12 +286,12 @@ export default function HomePage() {
                 <div className="absolute -inset-4 bg-gradient-to-br from-primary/20 to-accent/20 rounded-[2rem] blur-lg -z-10" />
                 <div className="relative rounded-[2rem] overflow-hidden shadow-2xl aspect-[4/3] group">
                   <Image
-                    src="https://static.wixstatic.com/media/e622ff_fc025d7a51534730a4259a9506d9e0fb~mv2.png"
-                    className="w-full h-full object-contain transition-transform duration-700 group-hover:scale-105"
+                    src="https://static.wixstatic.com/media/e622ff_7a3410b4d7e64311bfb00c2279f04beb~mv2.png"
+                    className="w-full h-full object-contain transition-transform duration-700 group-hover:scale-105 opacity-[0.75]"
                     originWidth={1024}
                     originHeight={1536}
-                    focalPointX={49.0234375}
-                    focalPointY={29.654947916666668} />
+                    focalPointX={49.8046875}
+                    focalPointY={21.126302083333336} />
                   <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent" />
                   {/* Floating Stat Card */}
 
