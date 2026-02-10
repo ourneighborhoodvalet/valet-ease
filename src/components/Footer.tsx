@@ -8,33 +8,33 @@ export default function Footer() {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 mb-8">
           {/* Company Info */}
           <div>
-            <div className="flex space-x-3">
-              <a href="#" className="hover:text-primary transition-colors" aria-label="Facebook">
-                <Facebook size={20} />
-              </a>
-              <a href="#" className="hover:text-primary transition-colors" aria-label="Twitter">
-                <Twitter size={20} />
-              </a>
-              <a href="#" className="hover:text-primary transition-colors" aria-label="LinkedIn">
-                <Linkedin size={20} />
-              </a>
-              <a href="#" className="hover:text-primary transition-colors" aria-label="Instagram">
-                <Instagram size={20} />
-              </a>
-              <a href="#" className="hover:text-primary transition-colors" aria-label="YouTube">
-                <Youtube size={20} />
-              </a>
-            </div>
-          <div className="flex items-center space-x-2 mb-4">
-              <div className="w-8 h-8 bg-white rounded-full flex items-center justify-center">
-                <span className="text-[#005C56] font-bold text-lg">V</span>
+            <div className="flex items-center space-x-2 mb-4">
+                <div className="w-8 h-8 rounded-full flex items-center justify-center bg-dark-green">
+                  <span className="text-[#005C56] font-bold text-lg">V</span>
+                </div>
+                <span className="font-heading text-xl font-bold text-dark-green">Neighborhood Valet Services</span>
               </div>
-              <span className="font-heading text-xl font-bold">Neighborhood Valet Services</span>
-            </div>
-            <p className="text-sm text-white/80 mb-4">
-              The premier provider of the most used amenity services in the multifamily industry.
-            </p>
-            </div>
+            <p className="text-sm mb-4 text-dark-green">
+                The premier provider of the most used amenity services in the multifamily industry.
+              </p>
+            <div className="flex space-x-3">
+          <a href="#" className="hover:text-primary transition-colors" aria-label="Facebook">
+            <Facebook size={20} />
+          </a>
+          <a href="#" className="hover:text-primary transition-colors" aria-label="Twitter">
+            <Twitter size={20} />
+          </a>
+          <a href="#" className="hover:text-primary transition-colors" aria-label="LinkedIn">
+            <Linkedin size={20} />
+          </a>
+          <a href="#" className="hover:text-primary transition-colors" aria-label="Instagram">
+            <Instagram size={20} />
+          </a>
+          <a href="#" className="hover:text-primary transition-colors" aria-label="YouTube">
+            <Youtube size={20} />
+          </a>
+        </div>
+          </div>
 
           {/* Services */}
           <div>

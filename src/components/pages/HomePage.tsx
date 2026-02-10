@@ -169,7 +169,7 @@ export default function HomePage() {
 
               <AnimatedSection delay={700}>
                 <div className="flex flex-col sm:flex-row gap-5">
-                  <Button size="lg" className="hover:bg-accent/90 text-white text-lg px-10 py-7 rounded-full transition-all hover:translate-y-[-2px] shadow-xl font-semibold tracking-wide bg-dark-green" onClick={() => navigate('/property-managers')}>
+                  <Button size="lg" className="hover:bg-accent/90 text-white text-lg px-10 py-7 rounded-full transition-all hover:translate-y-[-2px] shadow-xl font-semibold tracking-wide bg-accent" onClick={() => navigate('/property-managers')}>
                     Property Managers
                   </Button>
                   <Button size="lg" variant="outline" className="bg-transparent border-2 border-white text-white hover:bg-white hover:text-[#005C56] text-lg px-10 py-7 rounded-full transition-all hover:translate-y-[-2px] backdrop-blur-sm font-semibold tracking-wide" onClick={() => navigate('/residents')}>
