@@ -18,7 +18,7 @@ export default function Header() {
       <div className="w-full px-4 py-3 bg-secondary-foreground">
         <div className="flex items-center justify-between">
           {/* Logo */}
-          <Link to="/" className="flex items-center space-x-3">
+          <Link to="/" className="flex items-center space-x-3 font-k2d">
             <Image
               src="https://static.wixstatic.com/media/e622ff_1c65c00cdf314db69393a7d8eba51d61~mv2.png"
               width={64}

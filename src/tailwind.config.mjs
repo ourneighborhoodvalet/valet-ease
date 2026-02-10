@@ -21,7 +21,8 @@ export default {
             fontFamily: {
                 heading: ["Libre Baskerville"],
                 paragraph: ["Open Sans"],
-                roboto: ["roboto", "sans-serif"]
+                roboto: ["roboto", "sans-serif"],
+                k2d: ["k2d", "sans-serif"]
             },
             colors: {
                 primary: "#1FA89A",
