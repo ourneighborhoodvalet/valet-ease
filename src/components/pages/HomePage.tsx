@@ -152,7 +152,7 @@ export default function HomePage() {
           />
           {/* Heavy Green Overlay matching screenshot */}
           <div className="absolute inset-0 bg-[#005C56]/90 mix-blend-multiply" />
-          <div className="absolute inset-0 from-[#005C56] via-[#005C56]/80 to-transparent opacity-90 bg-secondary-foreground" />
+          <div className="absolute inset-0 from-[#005C56] via-[#005C56]/80 to-transparent opacity-90 bg-dark-blue-3" />
         </div>
 
         <div className="w-full relative z-10 pt-24 pb-16 lg:pb-24 xl:pb-32">
@@ -213,7 +213,7 @@ export default function HomePage() {
       </section>
       {/* --- PARTNERS MARQUEE --- */}
       {/* --- SERVICES SECTION --- */}
-      <section className="py-24 bg-secondary/30 relative overflow-hidden">
+      <section className="py-24 bg-gradient-to-b from-[#005C56]/20 via-secondary/30 to-secondary/30 relative overflow-hidden">
         {/* Decorative background elements */}
         <div className="absolute top-0 right-0 w-[500px] h-[500px] bg-primary/5 rounded-full blur-3xl -translate-y-1/2 translate-x-1/2" />
         <div className="absolute bottom-0 left-0 w-[500px] h-[500px] bg-accent/5 rounded-full blur-3xl translate-y-1/2 -translate-x-1/2" />
