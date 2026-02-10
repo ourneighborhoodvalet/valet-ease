@@ -3,7 +3,7 @@ import { Facebook, Twitter, Linkedin, Instagram, Youtube } from 'lucide-react';
 
 export default function Footer() {
   return (
-    <footer className="bg-[#005C56] text-white">
+    <footer className="text-white bg-card">
       <div className="container mx-auto px-4 py-12">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 mb-8">
           {/* Company Info */}
@@ -19,13 +19,13 @@ export default function Footer() {
               </p>
             <div className="flex space-x-3">
           <a href="#" className="hover:text-primary transition-colors" aria-label="Facebook">
-            <Facebook size={20} />
+            <Facebook size={20} className="fill-dark-green" />
           </a>
           <a href="#" className="hover:text-primary transition-colors" aria-label="Twitter">
-            <Twitter size={20} />
+            <Twitter size={20} className="fill-dark-green" />
           </a>
           <a href="#" className="hover:text-primary transition-colors" aria-label="LinkedIn">
-            <Linkedin size={20} />
+            <Linkedin size={20} className="fill-dark-green" />
           </a>
           <a href="#" className="hover:text-primary transition-colors" aria-label="Instagram">
             <Instagram size={20} />
@@ -38,7 +38,7 @@ export default function Footer() {
 
           {/* Services */}
           <div>
-            <h3 className="font-heading text-lg font-bold mb-4">Services</h3>
+            <h3 className="font-heading text-lg font-bold mb-4 text-dark-green">Services</h3>
             <ul className="space-y-2">
               <li>
                 <Link to="/services" className="text-sm text-white/80 hover:text-primary transition-colors">
@@ -46,7 +46,7 @@ export default function Footer() {
                 </Link>
               </li>
               <li>
-                <a href="#" className="text-sm text-white/80 hover:text-primary transition-colors">
+                <a href="#" className="text-sm hover:text-primary transition-colors text-dark-green">
                   Doorstep Trash Collection
                 </a>
               </li>
