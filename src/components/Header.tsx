@@ -29,26 +29,7 @@ export default function Header() {
             <span className="font-bold hidden sm:inline text-2xl text-accent-foreground font-roboto">Neighborhood Valet Services</span>
           </Link>
 
-          {/* Desktop Navigation */}
-          <nav className="hidden lg:flex items-center space-x-5">
-            <Link to="/services" className="hover:text-primary transition-colors text-lg">
-              Services
-            </Link>
-            <Link to="/property-managers" className="hover:text-primary transition-colors text-lg">
-              Property Managers
-            </Link>
-            <Link to="/residents" className="hover:text-primary transition-colors text-lg">
-              Residents
-            </Link>
-            <Link to="/careers" className="hover:text-primary transition-colors text-lg">
-              Careers
-            </Link>
-            <Link to="/contact" className="hover:text-primary transition-colors text-lg">
-              Contact
-            </Link>
-          </nav>
-
-          {/* CTA Buttons Dropdown */}
+          {/* Desktop Dropdown Menu */}
           <div className="hidden lg:flex items-center">
             <DropdownMenu>
               <DropdownMenuTrigger asChild>
@@ -63,7 +44,40 @@ export default function Header() {
                   </div>
                 </Button>
               </DropdownMenuTrigger>
-              <DropdownMenuContent align="end" className="w-40">
+              <DropdownMenuContent align="end" className="w-48">
+                <DropdownMenuItem asChild>
+                  <Link to="/services" className="w-full text-left px-2 py-2 hover:bg-secondary cursor-pointer">
+                    Services
+                  </Link>
+                </DropdownMenuItem>
+                <DropdownMenuItem asChild>
+                  <Link to="/property-managers" className="w-full text-left px-2 py-2 hover:bg-secondary cursor-pointer">
+                    Property Managers
+                  </Link>
+                </DropdownMenuItem>
+                <DropdownMenuItem asChild>
+                  <Link to="/residents" className="w-full text-left px-2 py-2 hover:bg-secondary cursor-pointer">
+                    Residents
+                  </Link>
+                </DropdownMenuItem>
+                <DropdownMenuItem asChild>
+                  <Link to="/careers" className="w-full text-left px-2 py-2 hover:bg-secondary cursor-pointer">
+                    Careers
+                  </Link>
+                </DropdownMenuItem>
+                <DropdownMenuItem asChild>
+                  <Link to="/contact" className="w-full text-left px-2 py-2 hover:bg-secondary cursor-pointer">
+                    Contact
+                  </Link>
+                </DropdownMenuItem>
+                <DropdownMenuItem asChild>
+                  <button
+                    className="w-full text-left px-2 py-2 hover:bg-secondary cursor-pointer"
+                    onClick={() => window.location.href = '/contact'}
+                  >
+                    Quote
+                  </button>
+                </DropdownMenuItem>
                 <DropdownMenuItem asChild>
                   <button
                     className="w-full text-left px-2 py-2 hover:bg-secondary cursor-pointer"
@@ -72,15 +86,7 @@ export default function Header() {
                     Portal
                   </button>
                 </DropdownMenuItem>
-              <DropdownMenuItem asChild>
-                  <button
-                    className="w-full text-left px-2 py-2 hover:bg-secondary cursor-pointer"
-                    onClick={() => window.location.href = '/contact'}
-                  >
-                    Quote
-                  </button>
-                </DropdownMenuItem>
-                </DropdownMenuContent>
+              </DropdownMenuContent>
             </DropdownMenu>
           </div>
 
