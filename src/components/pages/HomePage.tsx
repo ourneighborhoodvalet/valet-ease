@@ -144,7 +144,7 @@ export default function HomePage() {
         <div className="w-full relative z-10 pt-24 pb-16 lg:pb-24 xl:pb-32">
           <div className="w-full px-4 sm:px-6 mb-16">
             <AnimatedSection delay={100}>
-              <h1 className="font-heading text-5xl md:text-6xl lg:text-7xl text-white leading-[1.1] tracking-tight drop-shadow-lg max-w-full xl:text-4xl">Neighborhood ValetServices- Premium Trash & Amenity Services for Apartments, Condos & Multifamily Communities</h1>
+              <h1 className="text-5xl md:text-6xl lg:text-7xl text-white leading-[1.1] tracking-tight drop-shadow-lg max-w-full font-cinzel xl:text-6xl">Neighborhood Valet Services- Premium Trash & Amenity Services for Apartments, Condos & Multifamily Communities</h1>
             </AnimatedSection>
           </div>
 
@@ -279,12 +279,12 @@ export default function HomePage() {
                 <div className="absolute -inset-4 bg-gradient-to-br from-primary/20 to-accent/20 rounded-[2rem] blur-lg -z-10" />
                 <div className="relative rounded-[2rem] overflow-hidden shadow-2xl aspect-[4/3] group">
                   <Image
-                    src="https://static.wixstatic.com/media/e622ff_7a3410b4d7e64311bfb00c2279f04beb~mv2.png"
+                    src="https://static.wixstatic.com/media/e622ff_8d476b6f004447efa5d156dc7b972633~mv2.png"
                     className="w-full h-full object-contain transition-transform duration-700 group-hover:scale-105 opacity-[0.75]"
-                    originWidth={1024}
-                    originHeight={1536}
-                    focalPointX={49.8046875}
-                    focalPointY={21.126302083333336} />
+                    originWidth={1536}
+                    originHeight={1024}
+                    focalPointX={49.73958333333333}
+                    focalPointY={19.42138671875} />
                   <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent" />
                   {/* Floating Stat Card */}
 

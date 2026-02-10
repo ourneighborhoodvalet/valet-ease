@@ -22,7 +22,10 @@ export default {
                 heading: ["Libre Baskerville"],
                 paragraph: ["Open Sans"],
                 roboto: ["roboto", "sans-serif"],
-                k2d: ["k2d", "sans-serif"]
+                k2d: ["k2d", "sans-serif"],
+                "pinyon-script": ["pinyon-script", "pinyon script", "cursive"],
+                cinzel: ["cinzel", "serif"],
+                montserrat: ["montserrat", "sans-serif"]
             },
             colors: {
                 primary: "#478544ff",

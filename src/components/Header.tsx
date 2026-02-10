@@ -26,7 +26,7 @@ export default function Header() {
               className="h-16 w-16"
               originWidth={1536}
               originHeight={1024} />
-            <span className="font-bold hidden sm:inline text-2xl text-accent-foreground font-roboto">Neighborhood Valet Services</span>
+            <span className="font-bold hidden sm:inline text-2xl text-accent-foreground font-montserrat">Neighborhood Valet Services</span>
           </Link>
 
           {/* Desktop Dropdown Menu */}
