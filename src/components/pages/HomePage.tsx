@@ -103,13 +103,6 @@ const SERVICES = [
     title: 'Property Management',
     description: 'Comprehensive solutions that streamline operations, reduce workload for your team, and increase net operating income.',
     link: '/services/management'
-  },
-  {
-    id: 'ops',
-    icon: TrendingUp,
-    title: 'Operational Excellence',
-    description: 'Data-driven insights and proven systems that deliver consistent, reliable results for communities of all sizes.',
-    link: '/services/operations'
   }
 ];
 
@@ -224,7 +217,7 @@ export default function HomePage() {
             </AnimatedSection>
           </div>
 
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
             {SERVICES.map((service, index) => (
               <AnimatedSection key={service.id} delay={index * 100} className="h-full">
                 <Link to={service.link} className="block h-full group">
@@ -248,6 +241,20 @@ export default function HomePage() {
                 </Link>
               </AnimatedSection>
             ))}
+
+            {/* Image Section */}
+            <AnimatedSection delay={200} className="h-full">
+              <div className="h-full rounded-2xl overflow-hidden shadow-lg hover:shadow-2xl transition-all duration-300 hover:-translate-y-2 bg-white">
+                <div className="relative w-full h-full min-h-[400px] group">
+                  <Image
+                    src="https://static.wixstatic.com/media/e622ff_7a3410b4d7e64311bfb00c2279f04beb~mv2.png"
+                    alt="Services showcase"
+                    className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
+                  />
+                  <div className="absolute inset-0 bg-gradient-to-t from-black/40 via-transparent to-transparent" />
+                </div>
+              </div>
+            </AnimatedSection>
           </div>
 
           <div className="text-center mt-16">
