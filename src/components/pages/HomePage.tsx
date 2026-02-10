@@ -1,14 +1,14 @@
 // WI-HPI
 import { useEffect, useRef, useState } from 'react';
 import { useNavigate, Link } from 'react-router-dom';
-import { 
-  ArrowRight, 
-  CheckCircle, 
-  Users, 
-  Building2, 
-  Recycle, 
-  TrendingUp, 
-  Play, 
+import {
+  ArrowRight,
+  CheckCircle,
+  Users,
+  Building2,
+  Recycle,
+  TrendingUp,
+  Play,
   ChevronRight,
   Star,
   Quote,
@@ -23,19 +23,19 @@ import { Badge } from '@/components/ui/badge';
 
 // --- ANIMATION COMPONENTS ---
 
-const AnimatedSection: React.FC<{ 
-  children: React.ReactNode; 
-  className?: string; 
+const AnimatedSection: React.FC<{
+  children: React.ReactNode;
+  className?: string;
   delay?: number;
   direction?: 'up' | 'left' | 'right' | 'fade';
 }> = ({ children, className = '', delay = 0, direction = 'up' }) => {
   const ref = useRef<HTMLDivElement>(null);
   const [isVisible, setIsVisible] = useState(false);
-  
+
   useEffect(() => {
     const el = ref.current;
     if (!el) return;
-    
+
     const observer = new IntersectionObserver(
       ([entry]) => {
         if (entry.isIntersecting) {
@@ -45,11 +45,11 @@ const AnimatedSection: React.FC<{
       },
       { threshold: 0.1, rootMargin: '0px 0px -50px 0px' }
     );
-    
+
     observer.observe(el);
     return () => observer.disconnect();
   }, [delay]);
-  
+
   const getTransform = () => {
     if (!isVisible) {
       switch (direction) {
@@ -63,8 +63,8 @@ const AnimatedSection: React.FC<{
   };
 
   return (
-    <div 
-      ref={ref} 
+    <div
+      ref={ref}
       className={`transition-all duration-1000 ease-out ${isVisible ? 'opacity-100' : 'opacity-0'} ${getTransform()} ${className}`}
     >
       {children}
@@ -130,15 +130,15 @@ export default function HomePage() {
       {/* --- HERO SECTION --- */}
       <section className="relative min-h-[85vh] flex items-center overflow-hidden">
         {/* Background Image with Parallax Feel */}
-        <div className="absolute inset-0 z-0">
-          <Image 
-            src="https://static.wixstatic.com/media/e622ff_07851b8bdf4949319123806fe9252bda~mv2.png?originWidth=1280&originHeight=704" 
-            alt="Valet Living Office" 
+        <div className="absolute inset-0 z-0 opacity-[0.95] shadow-[inset_0px_0px_4px_0px_#bfbfbf] mix-blend-normal bg-primary">
+          <Image
+            src="https://static.wixstatic.com/media/e622ff_07851b8bdf4949319123806fe9252bda~mv2.png?originWidth=1280&originHeight=704"
+            alt="Valet Living Office"
             className="w-full h-full object-cover scale-105 animate-slow-zoom"
           />
           {/* Heavy Green Overlay matching screenshot */}
           <div className="absolute inset-0 bg-[#005C56]/90 mix-blend-multiply" />
-          <div className="absolute inset-0 from-[#005C56] via-[#005C56]/80 to-transparent opacity-90 bg-dark-blue-3" />
+          <div className="absolute inset-0 bg-gradient-to-b from-[#005C56] via-[#003B37]/80 to-transparent opacity-90" />
         </div>
 
         <div className="w-full relative z-10 pt-24 pb-16 lg:pb-24 xl:pb-32">
@@ -151,7 +151,7 @@ export default function HomePage() {
           <div className="container mx-auto px-4 sm:px-6 grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-16 items-center">
             <div className="lg:col-span-1">
               <AnimatedSection delay={300}>
-                <p className="text-xl md:text-2xl text-white/90 mb-8 font-light max-w-2xl leading-relaxed drop-shadow-md">Locally Owned & Owner-Operated</p>
+                <p className="text-xl md:text-2xl text-white/90 mb-8 font-light max-w-2xl leading-relaxed drop-shadow-md font-ｍｓ-ゴシック">Locally Owned & Owner-Operated</p>
               </AnimatedSection>
 
               <AnimatedSection delay={500}>
@@ -259,7 +259,7 @@ export default function HomePage() {
 
           <div className="text-center mt-16">
             <AnimatedSection delay={400}>
-              <Button 
+              <Button
                 size="lg"
                 className="bg-primary hover:bg-primary/90 text-white px-10 py-6 rounded-full shadow-lg hover:shadow-primary/30 transition-all hover:scale-105"
                 onClick={() => navigate('/services')}
@@ -295,7 +295,7 @@ export default function HomePage() {
               <div>
                 <h2 className="font-heading text-3xl md:text-4xl lg:text-5xl mb-8 leading-tight text-background">Why Us ?</h2>
                 <p className="text-lg mb-10 text-background">Reliable pickups, clear communication, and simple guidelines that reduce mess—backed by quick reporting when something needs attention. We tailor service to your community, integrate smoothly, and deliver peace of mind, making non-NVS properties a little envious.</p>
-                
+
                 <div className="space-y-6 mb-10">
                   {BENEFITS.map((benefit, index) => (
                     <div key={index} className="flex items-start space-x-4 group">
@@ -307,7 +307,7 @@ export default function HomePage() {
                   ))}
                 </div>
 
-                <Button 
+                <Button
                   size="lg"
                   className="bg-accent hover:bg-accent/90 text-white px-8 py-6 text-lg rounded-sm shadow-md hover:shadow-xl transition-all hover:-translate-y-1"
                   onClick={() => navigate('/property-managers')}
@@ -357,16 +357,16 @@ export default function HomePage() {
             <p className="text-xl text-white/80 mb-12 max-w-2xl mx-auto font-light">
               Join thousands of satisfied property managers and residents who trust Valet Living for their amenity services.
             </p>
-            
+
             <div className="flex flex-col sm:flex-row gap-6 justify-center items-center">
-              <Button 
+              <Button
                 size="lg"
                 className="bg-white text-[#005C56] hover:bg-gray-100 text-lg px-10 py-7 rounded-sm transition-all hover:scale-105 shadow-2xl font-bold min-w-[200px]"
                 onClick={() => navigate('/contact')}
               >
                 Request A Quote
               </Button>
-              <Button 
+              <Button
                 size="lg"
                 variant="outline"
                 className="bg-transparent border-2 border-white/30 text-white hover:bg-white/10 hover:border-white text-lg px-10 py-7 rounded-sm transition-all hover:scale-105 backdrop-blur-sm min-w-[200px]"
@@ -383,7 +383,7 @@ export default function HomePage() {
       {isVideoModalOpen && (
         <div className="fixed inset-0 z-50 flex items-center justify-center bg-black/90 backdrop-blur-sm p-4 animate-in fade-in duration-300">
           <div className="relative w-full max-w-5xl aspect-video bg-black rounded-xl overflow-hidden shadow-2xl border border-white/10">
-            <button 
+            <button
               onClick={() => setIsVideoModalOpen(false)}
               className="absolute top-4 right-4 text-white/70 hover:text-white z-10 bg-black/50 p-2 rounded-full"
             >

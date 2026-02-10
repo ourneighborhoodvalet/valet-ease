@@ -29,7 +29,14 @@ export default {
                 "eb-garamond": ["eb garamond", "serif"],
                 "helvetica-neue-light": ["helvetica neue light", "sans-serif"],
                 "dancing-script": ["dancing script", "cursive"],
-                mansalva: ["mansalva", "cursive"]
+                mansalva: ["mansalva", "cursive"],
+                "noticia-text": ["noticia text", "serif"],
+
+                "ｍｓ-ゴシック": [
+                    "ｍｓ ゴシック",
+                    "ms gothic,ヒラギノ角ゴ pro w3,hiragino kaku gothic pro,osaka",
+                    "sans-serif"
+                ]
             },
             colors: {
                 primary: "#84c592ff",
