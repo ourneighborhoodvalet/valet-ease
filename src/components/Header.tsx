@@ -15,7 +15,7 @@ export default function Header() {
 
   return (
     <header className="sticky top-0 z-50 bg-[#005C56] text-white w-full">
-      <div className="w-full px-4 py-3">
+      <div className="w-full px-4 py-3 bg-secondary-foreground">
         <div className="flex items-center justify-between">
           {/* Logo */}
           <Link to="/" className="flex items-center space-x-3">
@@ -67,20 +67,20 @@ export default function Header() {
                 <DropdownMenuItem asChild>
                   <button
                     className="w-full text-left px-2 py-2 hover:bg-secondary cursor-pointer"
-                    onClick={() => window.location.href = '/contact'}
-                  >
-                    Quote
-                  </button>
-                </DropdownMenuItem>
-                <DropdownMenuItem asChild>
-                  <button
-                    className="w-full text-left px-2 py-2 hover:bg-secondary cursor-pointer"
                     onClick={() => window.location.href = '/residents'}
                   >
                     Portal
                   </button>
                 </DropdownMenuItem>
-              </DropdownMenuContent>
+              <DropdownMenuItem asChild>
+                  <button
+                    className="w-full text-left px-2 py-2 hover:bg-secondary cursor-pointer"
+                    onClick={() => window.location.href = '/contact'}
+                  >
+                    Quote
+                  </button>
+                </DropdownMenuItem>
+                </DropdownMenuContent>
             </DropdownMenu>
           </div>
 
