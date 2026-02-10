@@ -167,19 +167,6 @@ export default function PropertyManagersPage() {
                   ))}
                 </div>
               </div>
-
-              <div className="space-y-6">
-                <Card className="p-8 bg-gradient-to-br from-primary/5 to-accent/5 border-primary/20">
-                  <div className="text-5xl font-bold text-primary mb-2">1000+</div>
-                  <p className="text-xl font-heading text-foreground">Communities Served</p>
-                </Card>
-                <Card className="p-8 bg-gradient-to-br from-accent/5 to-primary/5 border-accent/20">
-                  <div className="text-5xl font-bold text-accent mb-2">95%</div>
-                  <p className="text-xl font-heading text-foreground">Client Satisfaction Rate</p>
-                </Card>
-                <Card className="p-8 bg-gradient-to-br from-primary/5 to-accent/5 border-primary/20">
-                  <div className="text-5xl font-bold text-primary mb-2">20+</div>
-                  <p className="text-xl font-heading text-foreground">Years of Experience</p>
                 </Card>
               </div>
             </div>
