@@ -167,8 +167,6 @@ export default function PropertyManagersPage() {
                   ))}
                 </div>
               </div>
-                </Card>
-              </div>
             </div>
           </div>
         </section>
