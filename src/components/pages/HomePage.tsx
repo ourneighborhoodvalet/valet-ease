@@ -199,7 +199,7 @@ export default function HomePage() {
       </section>
       {/* --- PARTNERS MARQUEE --- */}
       {/* --- SERVICES SECTION --- */}
-      <section className="py-24 from-[#005C56]/20 via-secondary/30 to-secondary/30 relative overflow-hidden bg-[#cee3f5ff]">
+      <section className="py-24 from-[#005C56]/20 via-secondary/30 to-secondary/30 relative overflow-hidden bg-accent">
         {/* Decorative background elements */}
         <div className="absolute top-0 right-0 w-[500px] h-[500px] bg-primary/5 rounded-full blur-3xl -translate-y-1/2 translate-x-1/2" />
         <div className="absolute bottom-0 left-0 w-[500px] h-[500px] bg-accent/5 rounded-full blur-3xl translate-y-1/2 -translate-x-1/2" />
@@ -213,7 +213,7 @@ export default function HomePage() {
               <h2 className="font-heading text-4xl md:text-5xl text-foreground mb-6">
                 Comprehensive Amenity Services
               </h2>
-              <p className="text-lg text-muted-foreground leading-relaxed">We elevate communities by providing reliable valet trash services—one door at a time. NVS takes pride in reliability, and personal service. Owner-operator, on-site every night to make sure it’s done right. We’re not trying to be the biggest—just the best. Hospitality, done with care. Making non NVS properties a little more envious</p>
+              <p className="text-lg leading-relaxed text-background">We elevate communities by providing reliable valet trash services—one door at a time. NVS takes pride in reliability, and personal service. Owner-operator, on-site every night to make sure it’s done right. We’re not trying to be the biggest—just the best. Hospitality, done with care. Making non NVS properties a little more envious</p>
             </AnimatedSection>
           </div>
 
@@ -270,31 +270,7 @@ export default function HomePage() {
           </div>
         </div>
       </section>
-      {/* --- WHY CHOOSE US --- */}
-      {/* --- TESTIMONIAL / QUOTE --- */}
-      <section className="py-20 bg-primary text-white relative overflow-hidden">
-        <div className="absolute inset-0 bg-[url('https://www.transparenttextures.com/patterns/cubes.png')] opacity-10" />
-        <div className="container mx-auto px-4 relative z-10 text-center">
-          <AnimatedSection>
-            <Quote className="w-16 h-16 mx-auto mb-8 text-white/30" />
-            <h3 className="font-heading text-2xl md:text-4xl lg:text-5xl max-w-4xl mx-auto leading-tight mb-10">“Our mission is to deliver personal,
-            reliable valet trash services with a hands-on approach, bringing Southern
-            hospitality and pride to every doorstep. We aim to keep our communities clean,
-            our clients happy, and the competition envious, without ever losing our
-            personal touch.”</h3>
-            <div className="flex items-center justify-center space-x-4">
-              <div className="text-right">
-                <p className="font-bold text-xl">Sarah Jenkins</p>
-                <p className="text-white/80">Owner Operator</p>
-              </div>
-              <div className="w-12 h-12 bg-white/20 rounded-full flex items-center justify-center">
-                <Star className="w-6 h-6 text-yellow-400 fill-yellow-400" />
-              </div>
-            </div>
-          </AnimatedSection>
-        </div>
-      </section>
-      <section className="py-24 relative bg-[#478544ff]">
+      <section className="py-24 relative bg-[#cee3f5ff]">
         <div className="container mx-auto px-4">
           <div className="grid lg:grid-cols-2 gap-16 items-center">
             <AnimatedSection direction="right">
@@ -341,6 +317,30 @@ export default function HomePage() {
               </div>
             </AnimatedSection>
           </div>
+        </div>
+      </section>
+      {/* --- WHY CHOOSE US --- */}
+      {/* --- TESTIMONIAL / QUOTE --- */}
+      <section className="py-20 bg-primary text-white relative overflow-hidden">
+        <div className="absolute inset-0 bg-[url('https://www.transparenttextures.com/patterns/cubes.png')] opacity-10" />
+        <div className="container mx-auto px-4 relative z-10 text-center">
+          <AnimatedSection>
+            <Quote className="w-16 h-16 mx-auto mb-8 text-white/30" />
+            <h3 className="font-heading text-2xl md:text-4xl lg:text-5xl max-w-4xl mx-auto leading-tight mb-10">“Our mission is to deliver personal,
+            reliable valet trash services with a hands-on approach, bringing Southern
+            hospitality and pride to every doorstep. We aim to keep our communities clean,
+            our clients happy, and the competition envious, without ever losing our
+            personal touch.”</h3>
+            <div className="flex items-center justify-center space-x-4">
+              <div className="text-right">
+                <p className="font-bold text-xl">Sarah Jenkins</p>
+                <p className="text-white/80">Owner Operator</p>
+              </div>
+              <div className="w-12 h-12 bg-white/20 rounded-full flex items-center justify-center">
+                <Star className="w-6 h-6 text-yellow-400 fill-yellow-400" />
+              </div>
+            </div>
+          </AnimatedSection>
         </div>
       </section>
       {/* --- CTA SECTION --- */}
