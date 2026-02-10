@@ -286,19 +286,8 @@ export default function HomePage() {
                     className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
                   />
                   <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent" />
-                  
                   {/* Floating Stat Card */}
-                  <div className="absolute bottom-8 left-8 right-8 bg-white/95 backdrop-blur-md p-6 rounded-xl shadow-lg border border-white/20">
-                    <div className="flex items-center justify-between">
-                      <div>
-                        <p className="text-sm text-muted-foreground uppercase tracking-wider font-semibold">Communities Served</p>
-                        <p className="text-4xl font-bold text-primary font-heading">1,000+</p>
-                      </div>
-                      <div className="h-12 w-12 bg-accent/10 rounded-full flex items-center justify-center">
-                        <Building2 className="text-accent w-6 h-6" />
-                      </div>
-                    </div>
-                  </div>
+
                 </div>
               </div>
             </AnimatedSection>
