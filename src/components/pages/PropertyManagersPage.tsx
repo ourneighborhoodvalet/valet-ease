@@ -118,7 +118,7 @@ export default function PropertyManagersPage() {
                   description: 'Streamline operations and reduce staff workload with our services'
                 }
 
-                }
+
               ].map((benefit, index) => (
                 <Card
                   key={index}
