@@ -28,10 +28,10 @@ export default function Footer() {
             <Linkedin size={20} className="fill-dark-green" />
           </a>
           <a href="#" className="hover:text-primary transition-colors" aria-label="Instagram">
-            <Instagram size={20} />
+            <Instagram size={20} className="fill-dark-green" />
           </a>
           <a href="#" className="hover:text-primary transition-colors" aria-label="YouTube">
-            <Youtube size={20} />
+            <Youtube size={20} className="fill-dark-green" />
           </a>
         </div>
           </div>
@@ -41,7 +41,7 @@ export default function Footer() {
             <h3 className="font-heading text-lg font-bold mb-4 text-dark-green">Services</h3>
             <ul className="space-y-2">
               <li>
-                <Link to="/services" className="text-sm text-white/80 hover:text-primary transition-colors">
+                <Link to="/services" className="text-sm hover:text-primary transition-colors text-dark-green">
                   All Services
                 </Link>
               </li>
@@ -51,12 +51,12 @@ export default function Footer() {
                 </a>
               </li>
               <li>
-                <a href="#" className="text-sm text-white/80 hover:text-primary transition-colors">
+                <a href="#" className="text-sm hover:text-primary transition-colors text-dark-green">
                   Apartment Valet Services
                 </a>
               </li>
               <li>
-                <a href="#" className="text-sm text-white/80 hover:text-primary transition-colors">
+                <a href="#" className="text-sm hover:text-primary transition-colors text-dark-green">
                   Property Management Solutions
                 </a>
               </li>
