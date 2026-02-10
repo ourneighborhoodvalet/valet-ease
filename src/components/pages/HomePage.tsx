@@ -301,7 +301,7 @@ export default function HomePage() {
                   {BENEFITS.map((benefit, index) => (
                     <div key={index} className="flex items-start space-x-4 group">
                       <div className="mt-1 flex-shrink-0 w-6 h-6 rounded-full bg-accent/10 flex items-center justify-center group-hover:bg-accent group-hover:scale-110 transition-all duration-300">
-                        <CheckCircle className="text-accent w-4 h-4 group-hover:text-white transition-colors" />
+                        <CheckCircle className="text-accent w-4 h-4 group-hover:text-white transition-colors fill-secondary" />
                       </div>
                       <p className="text-foreground/80 group-hover:text-foreground transition-colors">{benefit}</p>
                     </div>

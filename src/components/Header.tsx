@@ -18,7 +18,7 @@ export default function Header() {
       <div className="w-full px-4 py-3 bg-color-16">
         <div className="flex items-center justify-between">
           {/* Logo */}
-          <Link to="/" className="flex items-center space-x-3 font-k2d">
+          <Link to="/" className="flex items-center space-x-3 font-mansalva">
             <Image
               src="https://static.wixstatic.com/media/e622ff_1c65c00cdf314db69393a7d8eba51d61~mv2.png"
               width={64}
@@ -26,7 +26,7 @@ export default function Header() {
               className="h-16 w-16"
               originWidth={1536}
               originHeight={1024} />
-            <span className="font-bold hidden sm:inline text-2xl text-accent-foreground font-montserrat">Neighborhood Valet Services</span>
+            <span className="font-bold hidden sm:inline text-2xl text-accent-foreground font-dancing-script">Neighborhood Valet Services</span>
           </Link>
 
           {/* Desktop Dropdown Menu */}

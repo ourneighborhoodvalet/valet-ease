@@ -25,7 +25,11 @@ export default {
                 k2d: ["k2d", "sans-serif"],
                 "pinyon-script": ["pinyon-script", "pinyon script", "cursive"],
                 cinzel: ["cinzel", "serif"],
-                montserrat: ["montserrat", "sans-serif"]
+                montserrat: ["montserrat", "sans-serif"],
+                "eb-garamond": ["eb garamond", "serif"],
+                "helvetica-neue-light": ["helvetica neue light", "sans-serif"],
+                "dancing-script": ["dancing script", "cursive"],
+                mansalva: ["mansalva", "cursive"]
             },
             colors: {
                 primary: "#478544ff",
