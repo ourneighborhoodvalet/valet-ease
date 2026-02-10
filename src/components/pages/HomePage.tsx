@@ -158,9 +158,9 @@ export default function HomePage() {
                 <div className="flex flex-col sm:flex-row items-start sm:items-center gap-6 mb-10">
                   <button onClick={() => setIsVideoModalOpen(true)} className="group flex items-center space-x-4 text-white hover:text-accent transition-colors duration-300">
                     <div className="w-16 h-16 bg-white rounded-full flex items-center justify-center shadow-lg group-hover:scale-110 transition-transform duration-300">
-                      <Play className="text-primary ml-1 fill-dark-green" size={28} />
+                      <Play className="text-primary ml-1 fill-accent" size={28} />
                     </div>
-                    <span className="text-lg font-semibold tracking-wide border-b-2 border-transparent group-hover:border-accent pb-0.5 text-dark-green">
+                    <span className="text-lg font-semibold tracking-wide border-b-2 border-transparent group-hover:border-accent pb-0.5 text-background">
                       Let us show you.
                     </span>
                   </button>
@@ -210,10 +210,10 @@ export default function HomePage() {
               <Badge className="mb-4 bg-primary/10 text-primary hover:bg-primary/20 px-4 py-1 text-sm uppercase tracking-wider">
                 What We Do
               </Badge>
-              <h2 className="font-heading text-4xl md:text-5xl text-foreground mb-6">
+              <h2 className="font-heading text-4xl md:text-5xl mb-6 text-secondary-foreground">
                 Comprehensive Amenity Services
               </h2>
-              <p className="text-lg leading-relaxed text-background">We elevate communities by providing reliable valet trash services—one door at a time. NVS takes pride in reliability, and personal service. Owner-operator, on-site every night to make sure it’s done right. We’re not trying to be the biggest—just the best. Hospitality, done with care. Making non NVS properties a little more envious</p>
+              <p className="text-lg leading-relaxed text-secondary-foreground">We elevate communities by providing reliable valet trash services—one door at a time. NVS takes pride in reliability, and personal service. Owner-operator, on-site every night to make sure it’s done right. We’re not trying to be the biggest—just the best. Hospitality, done with care. Making non NVS properties a little more envious</p>
             </AnimatedSection>
           </div>
 
