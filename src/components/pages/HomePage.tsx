@@ -158,17 +158,14 @@ export default function HomePage() {
         <div className="w-full relative z-10 pt-24 pb-16 lg:pb-24 xl:pb-32">
           <div className="w-full px-4 sm:px-6 mb-16">
             <AnimatedSection delay={100}>
-              <h1 className="font-heading text-5xl md:text-6xl lg:text-7xl xl:text-8xl text-white leading-[1.1] tracking-tight drop-shadow-lg max-w-full">Neighborhood Valet Services
-              Premium Trash & Amenity Services for Apartments, Condos & Multifamily Communities</h1>
+              <h1 className="font-heading text-5xl md:text-6xl lg:text-7xl text-white leading-[1.1] tracking-tight drop-shadow-lg max-w-full xl:text-4xl">Neighborhood ValetServices- Premium Trash & Amenity Services for Apartments, Condos & Multifamily Communities</h1>
             </AnimatedSection>
           </div>
 
           <div className="container mx-auto px-4 sm:px-6 grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-16 items-center">
             <div className="lg:col-span-1">
               <AnimatedSection delay={300}>
-                <p className="text-xl md:text-2xl text-white/90 mb-8 font-light max-w-2xl leading-relaxed drop-shadow-md">
-                  The premier provider of the most used amenity services in the multifamily industry.
-                </p>
+                <p className="text-xl md:text-2xl text-white/90 mb-8 font-light max-w-2xl leading-relaxed drop-shadow-md">Locally Owned & Owner-Operated Valet</p>
               </AnimatedSection>
 
               <AnimatedSection delay={500}>
@@ -186,7 +183,7 @@ export default function HomePage() {
 
               <AnimatedSection delay={700}>
                 <div className="flex flex-col sm:flex-row gap-5">
-                  <Button size="lg" className="bg-accent hover:bg-accent/90 text-white text-lg px-10 py-7 rounded-full transition-all hover:translate-y-[-2px] shadow-xl font-semibold tracking-wide" onClick={() => navigate('/property-managers')}>
+                  <Button size="lg" className="hover:bg-accent/90 text-white text-lg px-10 py-7 rounded-full transition-all hover:translate-y-[-2px] shadow-xl font-semibold tracking-wide bg-[#478544ff]" onClick={() => navigate('/property-managers')}>
                     Property Managers
                   </Button>
                   <Button size="lg" variant="outline" className="bg-transparent border-2 border-white text-white hover:bg-white hover:text-[#005C56] text-lg px-10 py-7 rounded-full transition-all hover:translate-y-[-2px] backdrop-blur-sm font-semibold tracking-wide" onClick={() => navigate('/residents')}>
