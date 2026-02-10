@@ -199,7 +199,7 @@ export default function HomePage() {
       </section>
       {/* --- PARTNERS MARQUEE --- */}
       {/* --- SERVICES SECTION --- */}
-      <section className="py-24 from-[#005C56]/20 via-secondary/30 to-secondary/30 relative overflow-hidden bg-accent-foreground">
+      <section className="py-24 from-[#005C56]/20 via-secondary/30 to-secondary/30 relative overflow-hidden bg-[#b7d6e3ff]">
         {/* Decorative background elements */}
         <div className="absolute top-0 right-0 w-[500px] h-[500px] bg-primary/5 rounded-full blur-3xl -translate-y-1/2 translate-x-1/2" />
         <div className="absolute bottom-0 left-0 w-[500px] h-[500px] bg-accent/5 rounded-full blur-3xl translate-y-1/2 -translate-x-1/2" />
@@ -301,7 +301,7 @@ export default function HomePage() {
                   {BENEFITS.map((benefit, index) => (
                     <div key={index} className="flex items-start space-x-4 group">
                       <div className="mt-1 flex-shrink-0 w-6 h-6 rounded-full bg-accent/10 flex items-center justify-center group-hover:bg-accent group-hover:scale-110 transition-all duration-300">
-                        <CheckCircle className="text-accent w-4 h-4 group-hover:text-white transition-colors fill-secondary" />
+                        <CheckCircle className="text-accent w-4 h-4 group-hover:text-white transition-colors fill-secondary-foreground" />
                       </div>
                       <p className="text-foreground/80 group-hover:text-foreground transition-colors">{benefit}</p>
                     </div>
