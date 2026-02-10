@@ -105,13 +105,6 @@ const SERVICES = [
     link: '/services/management'
   },
   {
-    id: 'resident',
-    icon: Users,
-    title: 'Resident Services',
-    description: 'From pet parks to package management, we provide the premium amenities that attract and retain quality residents.',
-    link: '/services/residents'
-  },
-  {
     id: 'ops',
     icon: TrendingUp,
     title: 'Operational Excellence',
