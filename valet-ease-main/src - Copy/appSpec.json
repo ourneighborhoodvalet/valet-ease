@@ -1,0 +1,227 @@
+{
+  "id": "9cc169a9-a6c0-481e-84c9-677adc36ca18",
+  "initialPrompt": "Create a website inspired by https://neighborhoodvalet.com/",
+  "siteName": "neighborhoodvalet.com",
+  "brandBook": {
+    "tones": [
+      "calm",
+      "sophisticated",
+      "minimal",
+      "trustworthy",
+      "natural",
+      "balanced",
+      "modern",
+      "clean",
+      "authoritative",
+      "approachable"
+    ],
+    "designStyle": {
+      "primaryStyle": [
+        "Minimalism",
+        "Modern"
+      ],
+      "supportingStyles": [
+        "Professional",
+        "Architectural",
+        "Natural"
+      ]
+    },
+    "toneOfVoice": "Professional, trustworthy, refined, and approachable with a focus on expertise and sustainability.",
+    "graphicElements": {
+      "icons": "Icons are line-based, minimal, and architectural in style, using black or 'primaryForeground' colors depending on background. They are simple and clear, supporting content without distraction.",
+      "stickers": "No stickers or badges are present, reinforcing the minimal and serious tone.",
+      "illustrations": "No illustrations are used, maintaining a clean and professional aesthetic."
+    },
+    "designSummary": "This brand design embodies a modern, minimalistic aesthetic with a focus on clarity, professionalism, and natural sophistication. The color palette is restrained, featuring a deep dark green as the primary color for impactful backgrounds and text blocks, complemented by a soft, muted greenish-beige background that evokes calmness and sustainability. White and black are used strategically for text and navigation elements to ensure high contrast and readability. Typography is clean and geometric, with a sans-serif font family that balances bold headings and readable body text, creating a clear hierarchy and an approachable yet authoritative tone. The layout is grid-based and modular, emphasizing spaciousness and balance with generous negative space and well-defined content areas. Iconography is minimal and line-based, reinforcing the architectural and professional theme. Overall, the design communicates trust, expertise, and a commitment to quality, making it versatile for various professional service industries.",
+    "layout": {
+      "grid": {
+        "margins": "Generous page margins",
+        "padding": "Consistent padding within containers",
+        "compositionApproach": "Column-based",
+        "spacing": {
+          "gaps": "Consistent medium gaps",
+          "rows": "Defined content rows",
+          "columns": "12-column grid",
+          "compositionApproach": "Not specified"
+        }
+      },
+      "layoutDna": {
+        "contrastSpectrum": "High-Contrast",
+        "densitySpectrum": "Balanced",
+        "textVsImageEmphasis": "Balanced",
+        "complexitySpectrum": "Simple & Clean",
+        "gridAlignmentSpectrum": "Strict Grid",
+        "negativeSpaceUsage": "Generous"
+      }
+    },
+    "components": {
+      "images": "Images are large, high-quality architectural photographs with natural lighting and neutral tones. They are placed prominently, often occupying half or full sections, balanced with text content. Images have no borders or shadows, maintaining a clean and modern look.",
+      "buttons": "Buttons are minimal with clear outlines or solid fills in 'primary' color, with text in 'primaryForeground'. They have subtle hover states to indicate interactivity. Secondary buttons use 'secondary' color outlines with 'secondaryForeground' text. Button shapes are rectangular with slight rounding for a modern feel.",
+      "containers": "Containers use solid backgrounds in 'primary' or 'secondary' colors to separate content areas clearly. They have consistent padding and margins to maintain spatial balance and readability. Borders are minimal or absent, relying on color contrast and spacing for separation."
+    },
+    "palette": {
+      "colors": {
+        "customColors": [
+          {
+            "name": "foreground",
+            "value": "#152F23"
+          },
+          {
+            "name": "destructive",
+            "value": "#DF3131"
+          },
+          {
+            "name": "destructiveforeground",
+            "value": "#FFFFFF"
+          }
+        ],
+        "background": "#FFFFFF",
+        "secondary": "#E7EBD8",
+        "secondaryForeground": "#000000",
+        "primaryForeground": "#FFFFFF",
+        "primary": "#152F23"
+      },
+      "paletteUsageGuide": "Use the 'primary' color as the main background for key text sections to create strong visual impact and ensure readability with text in 'primaryForeground'. The 'secondary' color serves as a calm, natural background for supporting content areas, paired with text in 'secondaryForeground' for clear contrast. The 'background' color is used for general page backgrounds and navigation areas to maintain a clean and open feel. This palette supports accessibility by providing high contrast combinations between 'primary' and 'primaryForeground' as well as 'secondary' and 'secondaryForeground'. Avoid mixing 'primary' and 'secondary' backgrounds directly to maintain visual clarity. The restrained palette allows for a professional and trustworthy brand presence while evoking natural and sustainable values.",
+      "paletteAccessibilityNotes": "The 'primary' color (#152F23) against 'primaryForeground' (#FFFFFF) achieves excellent contrast exceeding WCAG AA standards for text and UI elements. The 'secondary' color (#E7EBD8) with 'secondaryForeground' (#000000) also meets WCAG AA contrast requirements for body text and smaller UI elements. The 'background' color (#FFFFFF) with black text ensures maximum readability. This palette is optimized for accessibility across all text and interface components."
+    },
+    "typography": {
+      "headings": {
+        "font": {
+          "fontFamily": "space grotesk",
+          "role": "Primary Heading Font",
+          "fontJustification": ""
+        },
+        "headingsAccessibilityNotes": "Headings using the 'primary' color background with 'primaryForeground' text meet WCAG AA contrast standards. On lighter backgrounds, black text ensures excellent readability and accessibility.",
+        "headingsSimilarFonts": [
+          "work-sans-v2",
+          "rubik-v2",
+          "open sans"
+        ],
+        "headingsUsageGuide": "Use the heading font for all major titles and section headers to establish a clear visual hierarchy. Pair with the paragraph font for body text to maintain readability and balance. Headings should have ample spacing above and below to separate content blocks and improve scanability. Use 'primaryForeground' color on 'primary' backgrounds or black on lighter backgrounds for optimal contrast."
+      },
+      "paragraphs": {
+        "font": {
+          "fontFamily": "work-sans-v2",
+          "role": "Main Body Text Font",
+          "fontJustification": ""
+        },
+        "paragraphsUsageGuide": "Use the paragraph font for all body text, descriptions, and smaller informational content. Maintain sufficient line height and letter spacing to enhance readability. Combine with heading fonts to create a balanced typographic system. Text color should be 'secondaryForeground' on 'secondary' backgrounds or black on white backgrounds to ensure clarity.",
+        "paragraphsSimilarFonts": [
+          "open sans",
+          "poppins-v2",
+          "rubik-v2"
+        ],
+        "paragraphsAccessibilityNotes": "Body text colors meet WCAG AA contrast ratios against their respective backgrounds, ensuring accessibility for all users."
+      },
+      "customFontFamilies": {},
+      "fontSizes": [
+        {
+          "name": "xs",
+          "size": "0.75rem",
+          "lineHeight": "1.25",
+          "letterSpacing": "0.02em",
+          "fontWeight": "400"
+        },
+        {
+          "name": "sm",
+          "size": "0.875rem",
+          "lineHeight": "1.35",
+          "letterSpacing": "0.02em",
+          "fontWeight": "400"
+        },
+        {
+          "name": "base",
+          "size": "1rem",
+          "lineHeight": "1.5",
+          "letterSpacing": "0.02em",
+          "fontWeight": "400"
+        },
+        {
+          "name": "lg",
+          "size": "1.125rem",
+          "lineHeight": "1.5",
+          "letterSpacing": "0.01em",
+          "fontWeight": "500"
+        },
+        {
+          "name": "xl",
+          "size": "1.25rem",
+          "lineHeight": "1.5",
+          "letterSpacing": "0em",
+          "fontWeight": "600"
+        },
+        {
+          "name": "2xl",
+          "size": "1.5rem",
+          "lineHeight": "1.4",
+          "letterSpacing": "0em",
+          "fontWeight": "600"
+        },
+        {
+          "name": "3xl",
+          "size": "1.875rem",
+          "lineHeight": "1.3",
+          "letterSpacing": "-0.01em",
+          "fontWeight": "700"
+        },
+        {
+          "name": "4xl",
+          "size": "2.25rem",
+          "lineHeight": "1.2",
+          "letterSpacing": "-0.015em",
+          "fontWeight": "700"
+        },
+        {
+          "name": "5xl",
+          "size": "3rem",
+          "lineHeight": "1.1",
+          "letterSpacing": "-0.02em",
+          "fontWeight": "800"
+        },
+        {
+          "name": "6xl",
+          "size": "3.75rem",
+          "lineHeight": "1.1",
+          "letterSpacing": "-0.025em",
+          "fontWeight": "800"
+        },
+        {
+          "name": "7xl",
+          "size": "4.5rem",
+          "lineHeight": "1",
+          "letterSpacing": "-0.03em",
+          "fontWeight": "900"
+        },
+        {
+          "name": "8xl",
+          "size": "6rem",
+          "lineHeight": "1",
+          "letterSpacing": "-0.035em",
+          "fontWeight": "900"
+        },
+        {
+          "name": "9xl",
+          "size": "8rem",
+          "lineHeight": "1",
+          "letterSpacing": "-0.04em",
+          "fontWeight": "900"
+        }
+      ],
+      "welcomeSectionTypography": {
+        "placement": "Weighted Quadrant",
+        "implementation": "The welcome section uses a split layout with a large image occupying the left half and text content on the right half. This placement creates a visual balance that draws attention to both imagery and messaging. The text is aligned left with generous padding, ensuring readability and a clean presentation. The quadrant weighting emphasizes the image while allowing the text to anchor the message clearly, supporting user engagement and brand storytelling."
+      }
+    },
+    "originImagesUrls": [
+      "https://wixmp-fe53c9ff592a4da924211f23.wixmp.com/uploads/1750667891656-Screenshot%202025-06-23%20at%2011.38.05.png"
+    ]
+  },
+  "attachments": {
+    "contentImagesUrls": [],
+    "inspirationImagesUrls": [
+      "https://wixmp-c562ea68f10846b458285ce5.wixmp.com/scraped-screenshots/screenshot-1770316719090.webp"
+    ]
+  },
+  "status": "READY",
+  "plan": "\n\n```json\n{\n  \"sections\": [\n    {\n      \"id\": \"overview\",\n      \"title\": \"## Overview\",\n      \"content\": \"This plan creates a professional website for Neighborhood Valet Services, showcasing their amenity services for multifamily communities, including doorstep trash collection and property management solutions.\"\n    },\n    {\n      \"id\": \"key-features\",\n      \"title\": \"## Key features\",\n      \"content\": \"- **View Service Listing**: Browse all available amenity services offered to multifamily communities.\\n- **View Service Details**: See detailed information about each specific service offering.\\n- **View About Information**: Learn about Neighborhood Valet Services's company background and mission.\\n- **View Career Opportunities**: Explore available job positions and career information.\\n- **Submit Contact Form**: Send inquiries or requests for information to Neighborhood Valet Services.\",\n      \"metadata\": [\n        { \"id\": \"view-service-listing\", \"name\": \"View Service Listing\" },\n        { \"id\": \"view-service-details\", \"name\": \"View Service Details\" },\n        { \"id\": \"view-about-information\", \"name\": \"View About Information\" },\n        { \"id\": \"view-career-opportunities\", \"name\": \"View Career Opportunities\" },\n        { \"id\": \"submit-contact-form\", \"name\": \"Submit Contact Form\" }\n      ]\n    },\n    {\n      \"id\": \"structure\",\n      \"title\": \"## Structure\",\n      \"content\": \"- **Header (Reusable)**: Contains the Neighborhood Valet Services logo and navigation links to all main pages.\\n- **Home Page**: Features hero section highlighting key services with calls-to-action for property managers and residents.\\n- **Services Page**: Displays all amenity services with filtering options and detailed service information.\\n- **About Page**: Presents company information, mission, and partnership details.\\n- **Careers Page**: Lists available job opportunities and career resources.\\n- **Contact Page**: Provides contact form and company contact information.\\n- **Footer (Reusable)**: Contains multiple columns with links to services, resources, company information, and social media.\"\n    }\n  ],\n  \"apps\": [\n    {\n      \"id\": \"wix-cms\",\n      \"keyFeatures\": [\n        { \"id\": \"view-service-listing\", \"name\": \"View Service Listing\" },\n        { \"id\": \"view-service-details\", \"name\": \"View Service Details\" },\n        { \"id\": \"view-about-information\", \"name\": \"View About Information\" },\n        { \"id\": \"view-career-opportunities\", \"name\": \"View Career Opportunities\" },\n        { \"id\": \"submit-contact-form\", \"name\": \"Submit Contact Form\" }\n      ]\n    }\n  ],\n  \"version\": \"4.0.1\"\n}\n```"
+}

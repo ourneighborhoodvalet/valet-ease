@@ -1,0 +1,71 @@
+/** @type {import('tailwindcss').Config} */
+export default {
+    content: ['./src/**/*.{astro,html,js,jsx,md,mdx,svelte,ts,tsx,vue}', './public/**/*.html'],
+    theme: {
+        extend: {
+            fontSize: {
+                xs: ['0.75rem', { lineHeight: '1rem', letterSpacing: '-0.01em' }],
+                sm: ['0.875rem', { lineHeight: '1.25rem', letterSpacing: '-0.01em' }],
+                base: ['1rem', { lineHeight: '1.5rem', letterSpacing: '-0.01em' }],
+                lg: ['1.125rem', { lineHeight: '1.75rem', letterSpacing: '-0.01em' }],
+                xl: ['1.25rem', { lineHeight: '1.75rem', letterSpacing: '-0.01em', fontWeight: 'bold' }],
+                '2xl': ['1.5rem', { lineHeight: '2rem', letterSpacing: '-0.01em', fontWeight: 'bold' }],
+                '3xl': ['1.875rem', { lineHeight: '2.25rem', letterSpacing: '-0.01em', fontWeight: 'bold' }],
+                '4xl': ['2.25rem', { lineHeight: '2.5rem', letterSpacing: '-0.01em', fontWeight: 'bold' }],
+                '5xl': ['3rem', { lineHeight: '1', letterSpacing: '-0.01em', fontWeight: 'bold' }],
+                '6xl': ['3.75rem', { lineHeight: '1', letterSpacing: '-0.01em', fontWeight: 'bold' }],
+                '7xl': ['4.5rem', { lineHeight: '1', letterSpacing: '-0.01em', fontWeight: 'bold' }],
+                '8xl': ['5.25rem', { lineHeight: '1', letterSpacing: '-0.01em', fontWeight: 'bold' }],
+                '9xl': ['6rem', { lineHeight: '1', letterSpacing: '-0.01em', fontWeight: 'bold' }],
+            },
+            fontFamily: {
+                heading: ["Libre Baskerville"],
+                paragraph: ["Open Sans"],
+                roboto: ["roboto", "sans-serif"],
+                k2d: ["k2d", "sans-serif"],
+                "pinyon-script": ["pinyon-script", "pinyon script", "cursive"],
+                cinzel: ["cinzel", "serif"],
+                montserrat: ["montserrat", "sans-serif"],
+                "eb-garamond": ["eb garamond", "serif"],
+                "helvetica-neue-light": ["helvetica neue light", "sans-serif"],
+                "dancing-script": ["dancing script", "cursive"],
+                mansalva: ["mansalva", "cursive"],
+                "noticia-text": ["noticia text", "serif"],
+
+                "ｍｓ-ゴシック": [
+                    "ｍｓ ゴシック",
+                    "ms gothic,ヒラギノ角ゴ pro w3,hiragino kaku gothic pro,osaka",
+                    "sans-serif"
+                ]
+            },
+            colors: {
+                primary: "#84c592ff",
+                "primary-foreground": "#968e8eff",
+                secondary: "#F5F7F9",
+                "secondary-foreground": "#1A1A1A",
+                background: "#FFFFFF",
+                accent: "#84c592ff",
+                foreground: "#1A1A1A",
+                muted: "#F8F9FA",
+                "muted-foreground": "#6B7280",
+                border: "#E5E7EB",
+                card: "#FFFFFF",
+                "card-foreground": "#1A1A1A",
+                "accent-foreground": "#FFFFFF",
+                link: "#005C56",
+                "color-15": "#478544ff",
+                "color-16": "#052246ff",
+                "color-17": "#647c90ff",
+                "dark-blue-2": "#181e28ff",
+                "dark-blue-3": "#0b1f3aff",
+                "dark-navy-4": "#001f3fff",
+                "dark-navy-5": "#101820ff",
+                "dark-green": "#3d6e48ff"
+            },
+        },
+    },
+    future: {
+        hoverOnlyWhenSupported: true,
+    },
+    plugins: [require('@tailwindcss/container-queries'), require('@tailwindcss/typography')],
+}
