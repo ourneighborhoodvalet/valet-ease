@@ -2,7 +2,7 @@ import Footer from '@/components/Footer';
 import Header from '@/components/Header';
 import { Button } from '@/components/ui/button';
 import { Card } from '@/components/ui/card';
-import { Award, BarChart3, CheckCircle, DollarSign, TrendingUp, Users } from 'lucide-react';
+import { BarChart3, CheckCircle, DollarSign, TrendingUp, Users } from 'lucide-react';
 import { useEffect, useRef } from 'react';
 import { useNavigate } from 'react-router-dom';
 
@@ -106,9 +106,9 @@ export default function PropertyManagersPage() {
                   icon: DollarSign,
                   title: 'Revenue Generation',
                   description: 'Turn amenities into profit centers with our proven service models'
-                },
-                {
-                  
+
+
+
 
 
                 },
