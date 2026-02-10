@@ -135,6 +135,7 @@ export default function HomePage() {
           {/* Heavy Green Overlay matching screenshot */}
           <div className="absolute inset-0 bg-[#005C56]/90 mix-blend-multiply" />
 
+
         </div>
 
         <div className="w-full relative z-10 pt-24 pb-16 lg:pb-24 xl:pb-32">
