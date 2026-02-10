@@ -83,7 +83,7 @@ export default function Footer() {
                 </Link>
               </li>
               <li>
-                <Link to="/contact" className="text-sm text-white/80 hover:text-primary transition-colors">
+                <Link to="/contact" className="text-sm hover:text-primary transition-colors text-dark-green">
                   Contact Us
                 </Link>
               </li>
@@ -92,13 +92,13 @@ export default function Footer() {
 
           {/* Contact */}
           <div>
-            <h3 className="font-heading text-lg font-bold mb-4">Contact</h3>
+            <h3 className="font-heading text-lg font-bold mb-4 text-dark-green">Contact</h3>
             <ul className="space-y-2 text-sm text-white/80">
               <li>10150 Highland Manor Drive</li>
               <li>Suite 120</li>
               <li>Tampa, FL 33610</li>
               <li className="pt-2">
-                <a href="tel:8132481327" className="hover:text-primary transition-colors">Main: (843)-251-8798</a>
+                <a href="tel:8132481327" className="hover:text-primary transition-colors text-dark-green">Main: (843)-251-8798</a>
               </li>
               <li>
 
