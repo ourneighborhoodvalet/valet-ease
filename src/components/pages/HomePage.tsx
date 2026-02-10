@@ -199,7 +199,7 @@ export default function HomePage() {
       </section>
       {/* --- PARTNERS MARQUEE --- */}
       {/* --- SERVICES SECTION --- */}
-      <section className="py-24 from-[#005C56]/20 via-secondary/30 to-secondary/30 relative overflow-hidden bg-[#b7d6e3ff]">
+      <section className="py-24 from-[#005C56]/20 via-secondary/30 to-secondary/30 relative overflow-hidden bg-[#cee3f5ff]">
         {/* Decorative background elements */}
         <div className="absolute top-0 right-0 w-[500px] h-[500px] bg-primary/5 rounded-full blur-3xl -translate-y-1/2 translate-x-1/2" />
         <div className="absolute bottom-0 left-0 w-[500px] h-[500px] bg-accent/5 rounded-full blur-3xl translate-y-1/2 -translate-x-1/2" />
@@ -353,7 +353,7 @@ export default function HomePage() {
 
         <div className="container mx-auto px-4 text-center relative z-10">
           <AnimatedSection>
-            <h2 className="font-heading text-4xl md:text-5xl text-white mb-6">Leave Them ?</h2>
+            <h2 className="font-heading text-4xl md:text-5xl text-white mb-6">Leave Them Envious With NVS !</h2>
             <p className="text-xl text-white/80 mb-12 max-w-2xl mx-auto font-light">
               Join thousands of satisfied property managers and residents who trust Valet Living for their amenity services.
             </p>

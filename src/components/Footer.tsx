@@ -29,7 +29,7 @@ export default function Footer() {
               <div className="w-8 h-8 bg-white rounded-full flex items-center justify-center">
                 <span className="text-[#005C56] font-bold text-lg">V</span>
               </div>
-              <span className="font-heading text-xl font-bold">Neighborhood Valet</span>
+              <span className="font-heading text-xl font-bold">Neighborhood Valet Services</span>
             </div>
             <p className="text-sm text-white/80 mb-4">
               The premier provider of the most used amenity services in the multifamily industry.
@@ -98,14 +98,10 @@ export default function Footer() {
               <li>Suite 120</li>
               <li>Tampa, FL 33610</li>
               <li className="pt-2">
-                <a href="tel:8132481327" className="hover:text-primary transition-colors">
-                  Main: (813) 248-1327
-                </a>
+                <a href="tel:8132481327" className="hover:text-primary transition-colors">Main: (843)-251-8798</a>
               </li>
               <li>
-                <a href="tel:8775742587" className="hover:text-primary transition-colors">
-                  Toll-Free: (877) 574-2587
-                </a>
+
               </li>
             </ul>
           </div>
