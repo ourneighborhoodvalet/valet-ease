@@ -306,7 +306,7 @@ export default function HomePage() {
             <AnimatedSection direction="left">
               <div>
                 <h2 className="font-heading text-3xl md:text-4xl lg:text-5xl mb-8 text-foreground leading-tight">
-                  Why Property Managers Choose <span className="text-primary">Valet Living</span>
+                  Why choose Us
                 </h2>
                 <p className="text-lg text-muted-foreground mb-10">
                   We don't just collect trash; we provide peace of mind. Our services are designed to integrate seamlessly into your community, adding value from day one.
