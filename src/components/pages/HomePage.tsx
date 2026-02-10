@@ -152,7 +152,7 @@ export default function HomePage() {
           />
           {/* Heavy Green Overlay matching screenshot */}
           <div className="absolute inset-0 bg-[#005C56]/90 mix-blend-multiply" />
-          <div className="absolute inset-0 from-[#005C56] via-[#005C56]/80 to-transparent opacity-90 bg-color-16" />
+          <div className="absolute inset-0 from-[#005C56] via-[#005C56]/80 to-transparent opacity-90 bg-secondary-foreground" />
         </div>
 
         <div className="w-full relative z-10 pt-24 pb-16 lg:pb-24 xl:pb-32">
@@ -294,12 +294,8 @@ export default function HomePage() {
 
             <AnimatedSection direction="left">
               <div>
-                <h2 className="font-heading text-3xl md:text-4xl lg:text-5xl mb-8 text-foreground leading-tight">
-                  Why choose Us
-                </h2>
-                <p className="text-lg text-muted-foreground mb-10">
-                  We don't just collect trash; we provide peace of mind. Our services are designed to integrate seamlessly into your community, adding value from day one.
-                </p>
+                <h2 className="font-heading text-3xl md:text-4xl lg:text-5xl mb-8 text-foreground leading-tight">Why Choose Us</h2>
+                <p className="text-lg text-muted-foreground mb-10">Reliable pickups, clear communication, and simple guidelines that reduce mess—backed by quick reporting when something needs attention. We tailor service to your community, integrate smoothly, and deliver peace of mind, making non-NVS properties a little envious.</p>
                 
                 <div className="space-y-6 mb-10">
                   {BENEFITS.map((benefit, index) => (
