@@ -41,7 +41,11 @@ export default {
                 link: "#005C56",
                 "color-15": "#478544ff",
                 "color-16": "#052246ff",
-                "color-17": "#647c90ff"
+                "color-17": "#647c90ff",
+                "dark-blue-2": "#181e28ff",
+                "dark-blue-3": "#0b1f3aff",
+                "dark-navy-4": "#001f3fff",
+                "dark-navy-5": "#101820ff"
             },
         },
     },
