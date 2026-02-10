@@ -227,14 +227,7 @@ export default function HomePage() {
               <h2 className="font-heading text-4xl md:text-5xl text-foreground mb-6">
                 Comprehensive Amenity Services
               </h2>
-              <p className="text-lg text-muted-foreground leading-relaxed">we
-              believe in elevating communities one doorstep at a time. We’re driven by pride,
-              reliability, and commitment to personal service. As a hands-on owner-operator,
-              I’m always on-site, ensuring every detail is done right. We don’t dream of
-              scaling up like the big guys. Instead, we focus on perfection, delivering
-              Southern hospitality with a personal touch. We entered this business because we
-              saw larger competitors losing that caring edge. Our goal? To leave every
-              neighbor—especially those without NVS—a little envious</p>
+              <p className="text-lg text-muted-foreground leading-relaxed">We elevate communities by providing reliable valet trash services—one door at a time. NVS takes pride in reliability, and personal service. Owner-operator, on-site every night to make sure it’s done right. We’re not trying to be the biggest—just the best. Hospitality, done with care. Making non NVS properties a little more envious</p>
             </AnimatedSection>
           </div>
 
