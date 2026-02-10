@@ -116,8 +116,7 @@ export default function PropertyManagersPage() {
                   icon: BarChart3,
                   title: 'Operational Efficiency',
                   description: 'Streamline operations and reduce staff workload with our services'
-                },
-                {
+                }
 
                 }
               ].map((benefit, index) => (
